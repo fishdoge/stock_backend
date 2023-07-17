@@ -1,1 +1,1 @@
-get tx, tx_pm, e-mini dow jones prices: https://stockbackend1.wesleyliu4.repl.co/getprices
+# 
