@@ -3036,5 +3036,1431 @@
             "percent_summer": 0.3701844648011043,
             "percent": 0.3952817166520266
         }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-05-23T18:00:00-04:00",
+                "open": "33131",
+                "high": "33168",
+                "low": "33131",
+                "close": "33165"
+            },
+            "end": {
+                "time": "2023-05-24T16:30:00-04:00",
+                "open": "32869",
+                "high": "32889",
+                "low": "32846",
+                "close": "32865"
+            },
+            "percent": -0.8028734417916754,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-05-23",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-05-23 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16126.0,
+                    "volume": 4
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-05-23 04:30:42",
+                    "futures_id": "MTX",
+                    "price": 16121.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-05-23 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16120.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-23 03:30:04",
+                    "futures_id": "MTX",
+                    "price": 16124.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-23 03:59:10",
+                    "futures_id": "MTX",
+                    "price": 16120.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.012402331638348009,
+            "percent": 0.031005829095870022
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-05-24T18:00:00-04:00",
+                "open": "32897",
+                "high": "32897",
+                "low": "32790",
+                "close": "32791"
+            },
+            "end": {
+                "time": "2023-05-25T16:30:00-04:00",
+                "open": "32802",
+                "high": "32811",
+                "low": "32794",
+                "close": "32795"
+            },
+            "percent": -0.3100586679636441,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-05-24",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-05-24 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16091.0,
+                    "volume": 6
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-05-24 04:30:04",
+                    "futures_id": "MTX",
+                    "price": 16028.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-05-24 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16032.0,
+                    "volume": 10
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-24 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16027.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-24 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 16013.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.39773786588776333,
+            "percent": 0.3915232117332671
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-05-25T18:00:00-04:00",
+                "open": "32792",
+                "high": "32806",
+                "low": "32762",
+                "close": "32784"
+            },
+            "end": {
+                "time": "2023-05-26T16:30:00-04:00",
+                "open": "33153",
+                "high": "33158",
+                "low": "33148",
+                "close": "33148"
+            },
+            "percent": 1.0856306416199073,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-05-25",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-05-25 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 15971.0,
+                    "volume": 12
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-05-25 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 16030.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-05-25 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16068.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-05-25 03:30:01",
+                    "futures_id": "MTX",
+                    "price": 15762.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-25 03:59:03",
+                    "futures_id": "MTX",
+                    "price": 15977.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 1.3086218771523388,
+            "percent": 0.369419572976019
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-05-30T18:00:00-04:00",
+                "open": "33064",
+                "high": "33071",
+                "low": "33047",
+                "close": "33054"
+            },
+            "end": {
+                "time": "2023-05-31T16:30:00-04:00",
+                "open": "32954",
+                "high": "32971",
+                "low": "32927",
+                "close": "32929"
+            },
+            "percent": -0.4082990563755141,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-05-30",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-05-30 00:00:01",
+                    "futures_id": "MTX",
+                    "price": 16320.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-05-30 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 16570.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-05-30 04:59:04",
+                    "futures_id": "MTX",
+                    "price": 16568.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-30 03:30:47",
+                    "futures_id": "MTX",
+                    "price": 16565.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-30 03:59:33",
+                    "futures_id": "MTX",
+                    "price": 16561.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 1.5012254901960784,
+            "percent": 1.531862745098039
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-05-31T18:00:00-04:00",
+                "open": "32910",
+                "high": "32925",
+                "low": "32893",
+                "close": "32916"
+            },
+            "end": {
+                "time": "2023-06-01T16:30:00-04:00",
+                "open": "33126",
+                "high": "33146",
+                "low": "33124",
+                "close": "33146"
+            },
+            "percent": 0.7171072622303252,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-05-31",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-05-31 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16593.0,
+                    "volume": 4
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-05-31 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 16565.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-05-31 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16566.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-31 03:30:02",
+                    "futures_id": "MTX",
+                    "price": 16577.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-05-31 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 16555.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.09642620382088832,
+            "percent": 0.1687458566865546
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-01T18:00:00-04:00",
+                "open": "33143",
+                "high": "33150",
+                "low": "33136",
+                "close": "33138"
+            },
+            "end": {
+                "time": "2023-06-02T16:30:00-04:00",
+                "open": "33808",
+                "high": "33819",
+                "low": "33797",
+                "close": "33818"
+            },
+            "percent": 2.0366291524605495,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-01",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-01 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16415.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-01 04:30:22",
+                    "futures_id": "MTX",
+                    "price": 16453.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-01 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16449.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-01 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16453.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-01 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 16457.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.23149558330795003,
+            "percent": 0.23149558330795003
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-06T18:00:00-04:00",
+                "open": "33611",
+                "high": "33611",
+                "low": "33590",
+                "close": "33593"
+            },
+            "end": {
+                "time": "2023-06-07T16:30:00-04:00",
+                "open": "33716",
+                "high": "33719",
+                "low": "33703",
+                "close": "33709"
+            },
+            "percent": 0.29157121180565887,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-06",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-06 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16697.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-06 04:30:07",
+                    "futures_id": "MTX",
+                    "price": 16700.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-06 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16697.0,
+                    "volume": 4
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-06 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16700.0,
+                    "volume": 4
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-06 03:59:01",
+                    "futures_id": "MTX",
+                    "price": 16709.0,
+                    "volume": 12
+                }
+            },
+            "percent_summer": 0.017967299514882913,
+            "percent": 0.017967299514882913
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-07T18:00:00-04:00",
+                "open": "33703",
+                "high": "33719",
+                "low": "33701",
+                "close": "33710"
+            },
+            "end": {
+                "time": "2023-06-08T16:30:00-04:00",
+                "open": "33847",
+                "high": "33859",
+                "low": "33838",
+                "close": "33842"
+            },
+            "percent": 0.4124261935139305,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-07",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-07 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16801.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-07 04:30:02",
+                    "futures_id": "MTX",
+                    "price": 16789.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-07 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16789.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-07 03:30:10",
+                    "futures_id": "MTX",
+                    "price": 16792.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-07 03:59:10",
+                    "futures_id": "MTX",
+                    "price": 16795.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.05356823998571514,
+            "percent": 0.07142431998095351
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-08T18:00:00-04:00",
+                "open": "34132",
+                "high": "34132",
+                "low": "34118",
+                "close": "34119"
+            },
+            "end": {
+                "time": "2023-06-09T16:30:00-04:00",
+                "open": "34212",
+                "high": "34212",
+                "low": "34187",
+                "close": "34191"
+            },
+            "percent": 0.17285831477792102,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-08",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-08 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16880.0,
+                    "volume": 6
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-08 04:30:09",
+                    "futures_id": "MTX",
+                    "price": 16857.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-08 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16851.0,
+                    "volume": 4
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-08 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16867.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-08 03:59:01",
+                    "futures_id": "MTX",
+                    "price": 16853.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.07701421800947868,
+            "percent": 0.1362559241706161
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-13T18:00:00-04:00",
+                "open": "34450",
+                "high": "34514",
+                "low": "34414",
+                "close": "34443"
+            },
+            "end": {
+                "time": "2023-06-14T16:30:00-04:00",
+                "open": "34287",
+                "high": "34316",
+                "low": "34287",
+                "close": "34302"
+            },
+            "percent": -0.4296081277213352,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-13",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-06-13 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16798.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-13 04:30:02",
+                    "futures_id": "MTX",
+                    "price": 17081.0,
+                    "volume": 14
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-13 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17083.0,
+                    "volume": 4
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-13 03:30:01",
+                    "futures_id": "MTX",
+                    "price": 17082.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-13 03:59:09",
+                    "futures_id": "MTX",
+                    "price": 17083.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 1.6906774616025717,
+            "percent": 1.6847243719490417
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-14T18:00:00-04:00",
+                "open": "34290",
+                "high": "34311",
+                "low": "34279",
+                "close": "34297"
+            },
+            "end": {
+                "time": "2023-06-15T16:30:00-04:00",
+                "open": "34705",
+                "high": "34705",
+                "low": "34690",
+                "close": "34696"
+            },
+            "percent": 1.184018664333625,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-14",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-14 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 17243.0,
+                    "volume": 4
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-14 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 17234.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-06-14 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17010.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-14 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 17244.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-14 03:59:01",
+                    "futures_id": "MTX",
+                    "price": 17240.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.005799454851243983,
+            "percent": 0.052195093661195846
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-15T18:00:00-04:00",
+                "open": "34705",
+                "high": "34712",
+                "low": "34690",
+                "close": "34700"
+            },
+            "end": {
+                "time": "2023-06-16T16:30:00-04:00",
+                "open": "34636",
+                "high": "34643",
+                "low": "34595",
+                "close": "34612"
+            },
+            "percent": -0.26797291456562455,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-15",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-15 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 17250.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-15 04:30:23",
+                    "futures_id": "MTX",
+                    "price": 17249.0,
+                    "volume": 4
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-15 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17259.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-15 03:30:01",
+                    "futures_id": "MTX",
+                    "price": 17236.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-15 03:59:01",
+                    "futures_id": "MTX",
+                    "price": 17247.0,
+                    "volume": 12
+                }
+            },
+            "percent_summer": 0.08115942028985507,
+            "percent": 0.005797101449275362
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-21T18:00:00-04:00",
+                "open": "34248",
+                "high": "34266",
+                "low": "34242",
+                "close": "34250"
+            },
+            "end": {
+                "time": "2023-06-22T16:30:00-04:00",
+                "open": "34199",
+                "high": "34242",
+                "low": "34199",
+                "close": "34233"
+            },
+            "percent": -0.04379817799579537,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-21",
+            "price": {
+                "open": {
+                    "contract_date": "202306",
+                    "date": "2023-06-21 00:00:01",
+                    "futures_id": "MTX",
+                    "price": 17144.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202306",
+                    "date": "2023-06-21 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 17163.0,
+                    "volume": 10
+                },
+                "end": {
+                    "contract_date": "202306",
+                    "date": "2023-06-21 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17161.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-21 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 17159.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202306",
+                    "date": "2023-06-21 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 17157.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.08749416705552963,
+            "percent": 0.11082594493700419
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-22T18:00:00-04:00",
+                "open": "34250",
+                "high": "34250",
+                "low": "34223",
+                "close": "34237"
+            },
+            "end": {
+                "time": "2023-06-23T16:30:00-04:00",
+                "open": "33964",
+                "high": "33979",
+                "low": "33959",
+                "close": "33973"
+            },
+            "percent": -0.8087591240875913,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-22",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-06-22 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16933.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-06-22 04:30:04",
+                    "futures_id": "MTX",
+                    "price": 16932.0,
+                    "volume": 4
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-06-22 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16926.0,
+                    "volume": 4
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-22 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16939.0,
+                    "volume": 4
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-22 03:59:09",
+                    "futures_id": "MTX",
+                    "price": 16931.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.03543376838126735,
+            "percent": 0.005905628063544558
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-27T18:00:00-04:00",
+                "open": "34169",
+                "high": "34192",
+                "low": "34165",
+                "close": "34182"
+            },
+            "end": {
+                "time": "2023-06-28T16:30:00-04:00",
+                "open": "34122",
+                "high": "34156",
+                "low": "34121",
+                "close": "34138"
+            },
+            "percent": -0.09072551142848781,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-27",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-06-27 00:00:04",
+                    "futures_id": "MTX",
+                    "price": 16864.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-06-27 04:30:01",
+                    "futures_id": "MTX",
+                    "price": 16803.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-06-27 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16792.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-27 03:30:16",
+                    "futures_id": "MTX",
+                    "price": 16852.0,
+                    "volume": 4
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-27 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 16816.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.07115749525616698,
+            "percent": 0.3617172675521822
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-28T18:00:00-04:00",
+                "open": "34145",
+                "high": "34190",
+                "low": "34145",
+                "close": "34189"
+            },
+            "end": {
+                "time": "2023-06-29T16:30:00-04:00",
+                "open": "34350",
+                "high": "34353",
+                "low": "34327",
+                "close": "34329"
+            },
+            "percent": 0.5388783130765852,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-28",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-06-28 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16790.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-06-28 04:30:05",
+                    "futures_id": "MTX",
+                    "price": 16822.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-06-28 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16829.0,
+                    "volume": 4
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-28 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16840.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-28 03:59:00",
+                    "futures_id": "MTX",
+                    "price": 16828.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.29779630732578916,
+            "percent": 0.19058963668850507
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-06-29T18:00:00-04:00",
+                "open": "34325",
+                "high": "34332",
+                "low": "34320",
+                "close": "34329"
+            },
+            "end": {
+                "time": "2023-06-30T16:30:00-04:00",
+                "open": "34608",
+                "high": "34617",
+                "low": "34601",
+                "close": "34612"
+            },
+            "percent": 0.8361252731245448,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-06-29",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-06-29 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16793.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-06-29 04:30:22",
+                    "futures_id": "MTX",
+                    "price": 16794.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-06-29 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16804.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-29 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16765.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-06-29 03:59:03",
+                    "futures_id": "MTX",
+                    "price": 16775.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.16673614005835766,
+            "percent": 0.0059548621449413445
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-04T18:00:00-04:00",
+                "open": "34605",
+                "high": "34614",
+                "low": "34595",
+                "close": "34602"
+            },
+            "end": {
+                "time": "2023-07-05T16:30:00-04:00",
+                "open": "34504",
+                "high": "34505",
+                "low": "34491",
+                "close": "34494"
+            },
+            "percent": -0.3207628955353273,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-04",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-04 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 17010.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-04 04:30:01",
+                    "futures_id": "MTX",
+                    "price": 17023.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-04 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17022.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-04 03:30:05",
+                    "futures_id": "MTX",
+                    "price": 17022.0,
+                    "volume": 4
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-04 03:59:02",
+                    "futures_id": "MTX",
+                    "price": 17025.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.07054673721340389,
+            "percent": 0.07642563198118754
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-05T18:00:00-04:00",
+                "open": "34488",
+                "high": "34495",
+                "low": "34486",
+                "close": "34489"
+            },
+            "end": {
+                "time": "2023-07-06T16:30:00-04:00",
+                "open": "34126",
+                "high": "34127",
+                "low": "34109",
+                "close": "34114"
+            },
+            "percent": -1.0844351658547902,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-05",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-05 00:00:08",
+                    "futures_id": "MTX",
+                    "price": 17106.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-05 04:30:00",
+                    "futures_id": "MTX",
+                    "price": 17093.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-05 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17094.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-05 03:30:33",
+                    "futures_id": "MTX",
+                    "price": 17106.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-05 03:59:16",
+                    "futures_id": "MTX",
+                    "price": 17105.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.0,
+            "percent": 0.0759967262948673
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-06T18:00:00-04:00",
+                "open": "34107",
+                "high": "34128",
+                "low": "34102",
+                "close": "34121"
+            },
+            "end": {
+                "time": "2023-07-07T16:30:00-04:00",
+                "open": "33971",
+                "high": "33972",
+                "low": "33945",
+                "close": "33967"
+            },
+            "percent": -0.41047292344679975,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-06",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-06 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16915.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-06 04:30:02",
+                    "futures_id": "MTX",
+                    "price": 16913.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-06 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16907.0,
+                    "volume": 12
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-06 03:30:10",
+                    "futures_id": "MTX",
+                    "price": 16926.0,
+                    "volume": 4
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-06 03:59:06",
+                    "futures_id": "MTX",
+                    "price": 16919.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.06503103754064439,
+            "percent": 0.01182382500738989
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-11T18:00:00-04:00",
+                "open": "34439",
+                "high": "34455",
+                "low": "34432",
+                "close": "34447"
+            },
+            "end": {
+                "time": "2023-07-12T16:30:00-04:00",
+                "open": "34572",
+                "high": "34578",
+                "low": "34563",
+                "close": "34565"
+            },
+            "percent": 0.36586428177357067,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-11",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-11 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16656.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-11 04:30:01",
+                    "futures_id": "MTX",
+                    "price": 16706.0,
+                    "volume": 4
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-11 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16708.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-11 03:30:04",
+                    "futures_id": "MTX",
+                    "price": 16697.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-11 03:59:05",
+                    "futures_id": "MTX",
+                    "price": 16703.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.24615754082612873,
+            "percent": 0.3001921229586936
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-12T18:00:00-04:00",
+                "open": "34570",
+                "high": "34591",
+                "low": "34564",
+                "close": "34584"
+            },
+            "end": {
+                "time": "2023-07-13T16:30:00-04:00",
+                "open": "34552",
+                "high": "34557",
+                "low": "34543",
+                "close": "34555"
+            },
+            "percent": -0.04339022273647672,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-12",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-12 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 16864.0,
+                    "volume": 4
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-12 04:30:03",
+                    "futures_id": "MTX",
+                    "price": 16902.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-12 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 16910.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-12 03:30:00",
+                    "futures_id": "MTX",
+                    "price": 16881.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-12 03:59:01",
+                    "futures_id": "MTX",
+                    "price": 16895.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.10080645161290322,
+            "percent": 0.22533206831119545
+        }
+    },
+    {
+        "dow": {
+            "start": {
+                "time": "2023-07-13T18:00:00-04:00",
+                "open": "34547",
+                "high": "34569",
+                "low": "34542",
+                "close": "34569"
+            },
+            "end": {
+                "time": "2023-07-14T16:30:00-04:00",
+                "open": "34665",
+                "high": "34666",
+                "low": "34657",
+                "close": "34662"
+            },
+            "percent": 0.3328798448490462,
+            "is_summer": true
+        },
+        "tx": {
+            "date": "2023-07-13",
+            "price": {
+                "open": {
+                    "contract_date": "202307",
+                    "date": "2023-07-13 00:00:00",
+                    "futures_id": "MTX",
+                    "price": 17036.0,
+                    "volume": 2
+                },
+                "start": {
+                    "contract_date": "202307",
+                    "date": "2023-07-13 04:30:01",
+                    "futures_id": "MTX",
+                    "price": 17099.0,
+                    "volume": 2
+                },
+                "end": {
+                    "contract_date": "202307",
+                    "date": "2023-07-13 04:59:00",
+                    "futures_id": "MTX",
+                    "price": 17095.0,
+                    "volume": 2
+                },
+                "start_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-13 03:30:02",
+                    "futures_id": "MTX",
+                    "price": 17094.0,
+                    "volume": 2
+                },
+                "end_summer": {
+                    "contract_date": "202307",
+                    "date": "2023-07-13 03:59:04",
+                    "futures_id": "MTX",
+                    "price": 17098.0,
+                    "volume": 2
+                }
+            },
+            "percent_summer": 0.340455505987321,
+            "percent": 0.36980511857243487
+        }
     }
 ]
