@@ -1,0 +1,614 @@
+[
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.0420900950629561,
+        "dow_percent": -0.9275425578350066,
+        "tx_percent": 0.11454753722794961,
+        "time": "2022-01-04",
+        "profit": -11.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.1098954816620195,
+        "dow_percent": -0.1603405855195864,
+        "tx_percent": 0.9495548961424332,
+        "time": "2022-01-06",
+        "profit": 44.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.0500765797223623,
+        "dow_percent": -0.49199812045661845,
+        "tx_percent": 0.5580784592657438,
+        "time": "2022-01-12",
+        "profit": 2.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.0689169975092108,
+        "dow_percent": -1.0311322625421375,
+        "tx_percent": 0.037784734967073304,
+        "time": "2022-01-18",
+        "profit": -12.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.4901423861475722,
+        "dow_percent": -1.1901696563957316,
+        "tx_percent": 0.29997272975184075,
+        "time": "2022-01-19",
+        "profit": 21.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.4369453411782176,
+        "dow_percent": -1.3051279083227225,
+        "tx_percent": 0.13181743285549513,
+        "time": "2022-01-20",
+        "profit": 26.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.8187091754694773,
+        "dow_percent": -1.6742727552705994,
+        "tx_percent": 0.14443642019887784,
+        "time": "2022-02-09",
+        "profit": -20.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.3320153377781627,
+        "dow_percent": -1.249715326804828,
+        "tx_percent": 0.0823000109733348,
+        "time": "2022-02-10",
+        "profit": -1.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.9096580426461771,
+        "dow_percent": -1.7277997818724529,
+        "tx_percent": 0.18185826077372422,
+        "time": "2022-02-16",
+        "profit": -1.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.2196360248049853,
+        "dow_percent": -0.6367380319537342,
+        "tx_percent": 0.5828979928512511,
+        "time": "2022-02-17",
+        "profit": 26.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -2.2407474782081263,
+        "dow_percent": -1.6227482507071609,
+        "tx_percent": 0.6179992275009656,
+        "time": "2022-02-22",
+        "profit": -8.0
+    },
+    {
+        "action": "buy",
+        "is_summer": false,
+        "percentage_gap": 2.358917257252207,
+        "dow_percent": 2.908947814505388,
+        "tx_percent": 0.5500305572531807,
+        "time": "2022-02-24",
+        "profit": -26.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.4044067092243147,
+        "dow_percent": -0.7017647755537131,
+        "tx_percent": 0.7026419336706015,
+        "time": "2022-03-03",
+        "profit": -15.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.4347921748869106,
+        "dow_percent": -0.9231047693746417,
+        "tx_percent": 0.5116874055122689,
+        "time": "2022-03-10",
+        "profit": 32.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.3111079621812753,
+        "dow_percent": 1.8983172645068567,
+        "tx_percent": 0.5872093023255814,
+        "time": "2022-03-15",
+        "profit": 21.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.0993938883110204,
+        "dow_percent": 1.3729041303966816,
+        "tx_percent": 0.2735102420856611,
+        "time": "2022-03-17",
+        "profit": 53.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.3852936935043592,
+        "dow_percent": -1.2712230837969503,
+        "tx_percent": 0.11407060970740888,
+        "time": "2022-03-22",
+        "profit": 15.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.0444156438334236,
+        "dow_percent": 1.1181828798318347,
+        "tx_percent": 0.07376723599841116,
+        "time": "2022-03-23",
+        "profit": 14.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.3938773185287574,
+        "dow_percent": -1.2071518050335952,
+        "tx_percent": 0.1867255134951621,
+        "time": "2022-03-30",
+        "profit": 8.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.4744170065831814,
+        "dow_percent": -1.2868327402135231,
+        "tx_percent": 0.18758426636965825,
+        "time": "2022-04-20",
+        "profit": -13.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -3.173871505764306,
+        "dow_percent": -3.1271616324648375,
+        "tx_percent": 0.04670987329946868,
+        "time": "2022-04-21",
+        "profit": -2.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.2975796784489366,
+        "dow_percent": 1.408070133301309,
+        "tx_percent": 0.11049045485237248,
+        "time": "2022-04-27",
+        "profit": -20.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.3111883859296145,
+        "dow_percent": -2.255817400326071,
+        "tx_percent": 0.05537098560354374,
+        "time": "2022-04-28",
+        "profit": 14.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.9425881617730765,
+        "dow_percent": -2.9122207156752933,
+        "tx_percent": 0.03036744609778318,
+        "time": "2022-05-04",
+        "profit": -3.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.3445996790198,
+        "dow_percent": -0.579965384265023,
+        "tx_percent": 1.7646342947547768,
+        "time": "2022-05-05",
+        "profit": -19.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -0.993497849954801,
+        "dow_percent": -0.6739890164752871,
+        "tx_percent": 0.31950883347951387,
+        "time": "2022-05-10",
+        "profit": 46.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.2606798088949314,
+        "dow_percent": -0.8206772945948496,
+        "tx_percent": 0.4400025143000817,
+        "time": "2022-05-11",
+        "profit": 16.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -3.9061425560057264,
+        "dow_percent": -3.837077446443348,
+        "tx_percent": 0.06906510956237835,
+        "time": "2022-05-17",
+        "profit": 15.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.473416864197473,
+        "dow_percent": 2.170237619501399,
+        "tx_percent": 0.6968207553039258,
+        "time": "2022-05-26",
+        "profit": -48.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.3244035565752754,
+        "dow_percent": 1.5047462076122455,
+        "tx_percent": 0.18034265103697023,
+        "time": "2022-06-01",
+        "profit": -30.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.5565369735017154,
+        "dow_percent": -1.0225563909774436,
+        "tx_percent": 0.5339805825242718,
+        "time": "2022-06-02",
+        "profit": 37.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.178339571347375,
+        "dow_percent": -0.5829582867671489,
+        "tx_percent": 0.5953812845802261,
+        "time": "2022-06-07",
+        "profit": -20.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.9378637916217578,
+        "dow_percent": -1.7624358078337232,
+        "tx_percent": 0.1754279837880346,
+        "time": "2022-06-08",
+        "profit": -15.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -3.2175666359511133,
+        "dow_percent": -2.7614389201907,
+        "tx_percent": 0.45612771576041294,
+        "time": "2022-06-09",
+        "profit": 468.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.701767797797981,
+        "dow_percent": -2.377153277540786,
+        "tx_percent": 0.3246145202571946,
+        "time": "2022-06-15",
+        "profit": -36.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 2.764485980009127,
+        "dow_percent": 2.9769693797435224,
+        "tx_percent": 0.21248339973439576,
+        "time": "2022-06-23",
+        "profit": -2.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.792153723769651,
+        "dow_percent": -1.0186647754746785,
+        "tx_percent": 1.773488948294973,
+        "time": "2022-06-29",
+        "profit": 16.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.6269444166231786,
+        "dow_percent": 2.0402833545522805,
+        "tx_percent": 0.4133389379291019,
+        "time": "2022-07-14",
+        "profit": -5.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -0.771306830692732,
+        "dow_percent": -0.028293879090823353,
+        "tx_percent": 0.7430129516019086,
+        "time": "2022-07-19",
+        "profit": 16.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.1161659266470045,
+        "dow_percent": 1.2310307915118694,
+        "tx_percent": 0.11486486486486486,
+        "time": "2022-07-26",
+        "profit": 25.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.472114837662883,
+        "dow_percent": 1.593017578125,
+        "tx_percent": 0.12090274046211713,
+        "time": "2022-08-09",
+        "profit": 10.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.1381161753253473,
+        "dow_percent": -0.9087433461753374,
+        "tx_percent": 0.22937282915000984,
+        "time": "2022-08-18",
+        "profit": 2.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -3.328236540519071,
+        "dow_percent": -3.222409435551811,
+        "tx_percent": 0.10582710496725974,
+        "time": "2022-08-25",
+        "profit": 8.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -0.828540491638116,
+        "dow_percent": -0.7140161046804228,
+        "tx_percent": 0.11452438695769335,
+        "time": "2022-08-30",
+        "profit": 17.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.0687543369308783,
+        "dow_percent": -0.8152689123427922,
+        "tx_percent": 0.25348542458808615,
+        "time": "2022-09-01",
+        "profit": 23.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.3176411951153397,
+        "dow_percent": 1.3449748017847398,
+        "tx_percent": 0.027333606669400025,
+        "time": "2022-09-06",
+        "profit": -2.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.7265417154480005,
+        "dow_percent": -0.8786784675847527,
+        "tx_percent": 0.8478632478632478,
+        "time": "2022-09-14",
+        "profit": 22.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.469841299820271,
+        "dow_percent": -1.929562848618498,
+        "tx_percent": 0.5402784512017732,
+        "time": "2022-09-20",
+        "profit": 1.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.9191233794252016,
+        "dow_percent": -1.7805136351601798,
+        "tx_percent": 0.13860974426502184,
+        "time": "2022-09-22",
+        "profit": 92.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.4622270151681918,
+        "dow_percent": 1.6717948717948719,
+        "tx_percent": 0.20956785662668015,
+        "time": "2022-09-27",
+        "profit": -1.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.7369742815456493,
+        "dow_percent": -1.5124016938898972,
+        "tx_percent": 0.22457258765575197,
+        "time": "2022-09-28",
+        "profit": -11.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.9617748080714563,
+        "dow_percent": -1.5138053581191908,
+        "tx_percent": 0.4479694499522655,
+        "time": "2022-09-29",
+        "profit": 10.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.2445567624017717,
+        "dow_percent": -1.1575371829964054,
+        "tx_percent": 0.0870195794053662,
+        "time": "2022-10-05",
+        "profit": -12.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -2.8304575414225965,
+        "dow_percent": -2.000400748063051,
+        "tx_percent": 0.8300567933595456,
+        "time": "2022-10-06",
+        "profit": 34.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 1.7790813973465527,
+        "dow_percent": 2.657614628820961,
+        "tx_percent": 0.878533231474408,
+        "time": "2022-10-12",
+        "profit": -1.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.6726995006315426,
+        "dow_percent": -1.3359476255358744,
+        "tx_percent": 0.3367518750956681,
+        "time": "2022-10-13",
+        "profit": 12.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 2.456317556774034,
+        "dow_percent": 2.565030089776053,
+        "tx_percent": 0.10871253300201895,
+        "time": "2022-10-20",
+        "profit": 10.0
+    },
+    {
+        "action": "buy",
+        "is_summer": true,
+        "percentage_gap": 2.513748632144454,
+        "dow_percent": 2.9554036763099587,
+        "tx_percent": 0.4416550441655044,
+        "time": "2022-10-27",
+        "profit": -16.0
+    },
+    {
+        "action": "sell",
+        "is_summer": true,
+        "percentage_gap": -1.4546836691292142,
+        "dow_percent": -1.4392013963315675,
+        "tx_percent": 0.015482272797646694,
+        "time": "2022-11-01",
+        "profit": 6.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.9687819394631156,
+        "dow_percent": -1.727418234530245,
+        "tx_percent": 0.2413637049328707,
+        "time": "2022-11-08",
+        "profit": 2.0
+    },
+    {
+        "action": "buy",
+        "is_summer": false,
+        "percentage_gap": 3.7074209658520494,
+        "dow_percent": 3.863531581373905,
+        "tx_percent": 0.15611061552185548,
+        "time": "2022-11-09",
+        "profit": -13.0
+    },
+    {
+        "action": "buy",
+        "is_summer": false,
+        "percentage_gap": 1.3753727168539047,
+        "dow_percent": 2.2146105238292093,
+        "tx_percent": 0.8392378069753045,
+        "time": "2022-11-29",
+        "profit": 6.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -2.049244033906149,
+        "dow_percent": -0.04069412551230998,
+        "tx_percent": 2.0085499083938387,
+        "time": "2022-12-01",
+        "profit": 7.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -3.1499333332975916,
+        "dow_percent": -2.5984251968503935,
+        "tx_percent": 0.5515081364471982,
+        "time": "2022-12-14",
+        "profit": 9.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.80544352926825,
+        "dow_percent": -1.0175071075864133,
+        "tx_percent": 0.7879364216818366,
+        "time": "2022-12-15",
+        "profit": -13.0
+    },
+    {
+        "action": "buy",
+        "is_summer": false,
+        "percentage_gap": 1.037188934061774,
+        "dow_percent": 1.432967298177869,
+        "tx_percent": 0.395778364116095,
+        "time": "2022-12-20",
+        "profit": 25.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.3361231200319055,
+        "dow_percent": -1.308005588751152,
+        "tx_percent": 0.02811753128075355,
+        "time": "2022-12-21",
+        "profit": 11.0
+    },
+    {
+        "action": "sell",
+        "is_summer": false,
+        "percentage_gap": -1.0940102413342105,
+        "dow_percent": -1.0799652975139857,
+        "tx_percent": 0.01404494382022472,
+        "time": "2022-12-27",
+        "profit": -2.0
+    }
+]
