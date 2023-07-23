@@ -3,6 +3,7 @@ import requests as r
 import time
 # import pandas as pd
 import yfinance as yf
+import json 
 
 app = Flask(__name__)
 
@@ -51,18 +52,10 @@ def index():
            "AscDesc":"A"}
   res = r.post(url, json = payload)
   data = res.json()
-  # print("f",data)
   
   stock = yf.Ticker("%5EDJI")
   data = stock.info
   print(data)
-  # for i in range(10):
-  #   time.sleep(1)
-  #   print(i)
-  # time.sleep(10)
-  print("sec")
-  # index()
-  # print(data.keys(),data["RtData"]["QuoteList"][0]["DispCName"],data["RtData"]["QuoteList"][0]["DispEName"])
   return data
 
 @app.route('/get')
@@ -103,9 +96,19 @@ def get():
 
   return myRes
 
-@app.route('/trigger')
-def trigger():
-  return "200"
+# profit and yield history
+def readjson(jsonFilePath):
+    jdict = {}
+    with open(jsonFilePath, encoding='utf-8') as j:
+        jdict = json.load(j)
+    return jdict
+
+@app.route('/yphistory')
+def yphistory():
+  jsonFilePath = r'./get_tx_history/history/yield_m_22_23.json'
+  his = readjson(jsonFilePath)
+  print(type(his))
+  return his
   
 
 app.run(host='0.0.0.0', port=81)
