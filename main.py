@@ -96,13 +96,22 @@ def get():
 
   return myRes
 
-# profit and yield history
+# read json file 
 def readjson(jsonFilePath):
     jdict = {}
     with open(jsonFilePath, encoding='utf-8') as j:
         jdict = json.load(j)
     return jdict
 
+# profit and yield history
+@app.route('/tradehistory')
+def tradehistory():
+  jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
+  his = readjson(jsonFilePath)
+  print(type(his))
+  return his
+
+# profit and yield history
 @app.route('/yphistory')
 def yphistory():
   jsonFilePath = r'./get_tx_history/history/yield_m_22_23.json'
