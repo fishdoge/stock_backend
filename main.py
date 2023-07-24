@@ -35,7 +35,7 @@ def getPrices():
   data = stock.info
   myRes["edji"] = {"DispEName": "YM=F", "bid": data["bid"], "ask": data["ask"]}
   
-  print(myRes)
+  print(type(myRes), myRes)
   return myRes
 
 @app.route('/')
@@ -104,6 +104,7 @@ def readjson(jsonFilePath):
     return jdict
 
 # profit and yield history
+# TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list. gcp
 @app.route('/tradehistory')
 def tradehistory():
   jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
