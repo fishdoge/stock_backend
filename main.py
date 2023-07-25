@@ -34,6 +34,14 @@ def tradehistory():
   print(type(his), data)
   return data
 
+# profit and yield history
+@app.route('/yphistory')
+def yphistory():
+  jsonFilePath = r'./get_tx_history/history/yield_m_22_23.json'
+  his = readjson(jsonFilePath)
+  print(type(his))
+  return his
+  
 @app.route('/realtime')
 def getPrices():
   myRes={}
@@ -56,6 +64,7 @@ def getPrices():
   res = r.post(url, json = payload)
   data = res.json()
   tx_pm = data["RtData"]["QuoteList"][1]
+  print(tx_pm)
   myRes["tx_pm"] = {"DispEName": tx_pm["DispEName"], "Status": tx_pm["Status"], "CLastPrice": tx_pm["CLastPrice"]}
   url = "https://finance.yahoo.com/quote/YM=F"
   response = r.get(url, headers={"User-Agent":"Mozilla/5.0"})
