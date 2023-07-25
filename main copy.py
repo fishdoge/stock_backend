@@ -1,13 +1,9 @@
-
 from flask import Flask
 import yfinance as yf
 import json 
 import requests as r
-from bs4 import BeautifulSoup
-
 
 app = Flask(__name__)
-
 
 @app.route("/")
 def hello() -> str:
@@ -34,7 +30,7 @@ def tradehistory():
   print(type(his), data)
   return data
 
-@app.route('/realtime')
+@app.route('/getprices')
 def getPrices():
   myRes={}
   url = "https://mis.taifex.com.tw/futures/api/getQuoteList"
@@ -57,25 +53,37 @@ def getPrices():
   data = res.json()
   tx_pm = data["RtData"]["QuoteList"][1]
   myRes["tx_pm"] = {"DispEName": tx_pm["DispEName"], "Status": tx_pm["Status"], "CLastPrice": tx_pm["CLastPrice"]}
-  url = "https://finance.yahoo.com/quote/YM=F"
-  response = r.get(url, headers={"User-Agent":"Mozilla/5.0"})
-  if not response.ok:
-    print('Status code:', response.status_code)
-    raise Exception('Failed to load page {}'.format(url))
-  page_content = response.text
-  doc = BeautifulSoup(page_content, 'html.parser')
-  title_tag = doc.title.string
-  print(title_tag)
-  tags = doc.find_all(["fin-streamer"])
-  price = tags[3].string
-  amp = tags[4].string
-  percent = tags[5].string
 
-  print(price, amp, percent)
-  myRes['edji'] = {'title': title_tag, 'price': price, 'amp': amp, 'percent': percent}
-  
-  print(type(myRes), myRes)
+  stock = yf.Ticker("YM=F")
+  # k = stock.info
+  # myRes["edji"] = {"DispEName": "YM=F", "bid": data["bid"], "ask": data["ask"]}
+
+# requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/YM=F?modules=summaryProfile%2CfinancialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&ssl=true
+  url = 'https://query2.finance.yahoo.com/v10/finance/quoteSummary/YM=F?modules=summaryProfile%2CfinancialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&ssl=true'
+  res = r.get(url)
+  # k = res.json()
+  print(type(myRes), type(res))
   return myRes
+
+@app.route('/sc')
+def sc():
+  api_url = 'https://www.page2api.com/api/v1/scrape'
+  payload = {
+    "api_key": "0990b538cafcbfcd4f23dada11d5e41e31d7673f",
+    "url": "https://finance.yahoo.com/quote/YM=F?p=YM=F&.tsrc=fin-srch",
+    "parse": {
+      "name": "#quote-header-info h1 >> text",
+      "price": "#quote-header-info [data-field=regularMarketPrice] >> text",
+      "change": "#quote-header-info [data-field=regularMarketChange] >> text",
+      "change_percent": "#quote-header-info [data-field=regularMarketChangePercent] >> text"
+    }
+  }
+
+  headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+  response = r.post(api_url, data=json.dumps(payload), headers=headers)
+  result = json.loads(response.text)
+  print(result['result'])
+  return result['result']
 
 
 if __name__ == "__main__":
