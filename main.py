@@ -31,7 +31,7 @@ def tradehistory():
   jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
   his = readjson(jsonFilePath)
   data = {"data": his}
-  print(type(his), data)
+  # print(type(his), data)
   return data
 
 # profit and yield history
@@ -39,34 +39,40 @@ def tradehistory():
 def yphistory():
   jsonFilePath = r'./get_tx_history/history/yield_m_22_23.json'
   his = readjson(jsonFilePath)
-  print(type(his))
+  # print(type(his))
   return his
   
 @app.route('/realtime')
 def getPrices():
-  myRes={}
-  url = "https://mis.taifex.com.tw/futures/api/getQuoteList"
-  payload = {"MarketType":"0",
-            "SymbolType":"F",
-            "KindID":"1",
-            "CID":"TXF",
-            "ExpireMonth":"",
-            "RowSize":"全部",
-            "PageNo":"",
-            "SortColumn":"",
-            "AscDesc":"A"}
-  res = r.post(url, json = payload)
-  data = res.json()
-  tx_new = data["RtData"]["QuoteList"][1]
-  # myRes["tx_new"] = {"DispEName": tx_new["DispEName"], "Status": tx_new["Status"], "CLastPrice": tx_new["CLastPrice"]}
-  myRes["tx_new"] = tx_new
-  payload["MarketType"] = "1"
-  res = r.post(url, json = payload)
-  data = res.json()
-  tx_pm = data["RtData"]["QuoteList"][1]
-  print(tx_pm)
-  # myRes["tx_pm"] = {"DispEName": tx_pm["DispEName"], "Status": tx_pm["Status"], "CLastPrice": tx_pm["CLastPrice"]}
-  myRes["tx_pm"] = tx_pm
+  tx = getTx()
+  ym = getYm()
+  response = r.get("http://worldtimeapi.org/api/timezone/Asia/Taipei")
+  time = json.loads(response.text)
+  myRes={"tx": tx, "ym": ym, "time": time}
+  # print(type(myRes), myRes, time['datetime'])
+  return myRes
+
+def getTx():
+  url = "https://histock.tw/index-tw/FITX"
+  headers = {"User-Agent":"Mozilla/5.0"}
+  response = r.get(url, headers=headers)
+  if not response.ok:
+    print('Status code:', response.status_code)
+    raise Exception('Failed to load page {}'.format(url))
+  page_content = response.text
+  doc = BeautifulSoup(page_content, 'html.parser')
+  title_tag = doc.title
+  # print(title_tag)
+  price = doc.find_all("span", id="Price1_lbTPrice")
+  price = float(price[0].string)
+  change = doc.find_all("span", id="Price1_lbTChange")
+  change = float(change[0].string[1:])
+  percent = doc.find_all("span", id="Price1_lbTPercent")
+  percent = float(percent[0].string[:-1])
+  # print( price, change, percent)
+  return {"open": price-change, "price": price, "change": change, "percent": percent}
+
+def getYm():
   url = "https://finance.yahoo.com/quote/YM=F"
   response = r.get(url, headers={"User-Agent":"Mozilla/5.0"})
   if not response.ok:
@@ -75,18 +81,15 @@ def getPrices():
   page_content = response.text
   doc = BeautifulSoup(page_content, 'html.parser')
   title_tag = doc.title.string
-  print(title_tag)
+  # print(title_tag)
   tags = doc.find_all(["fin-streamer"], limit=7)
-  print(len(tags),tags)
-  price = tags[3].string
-  amp = tags[4].string
-  percent = tags[5].string
-
-  # print(price, amp, percent)
-  myRes['edji'] = {'title': title_tag, 'price': price, 'amp': amp, 'percent': percent}
-  
-  # print(type(myRes), myRes)
-  return myRes
+  # print(len(tags),tags)
+  price = float((tags[3].string).replace(",", ""))
+  change = float(tags[4].string)
+  percent = float(tags[5].string[1:-2])
+  open = float(((doc.find_all("td", {"data-test":"OPEN-value"},  limit=1))[0].string).replace(",", ""))
+  # print(tags)
+  return {"open": open,"price": price, "change": change, "percent": percent}
 
 
 if __name__ == "__main__":
