@@ -6,7 +6,9 @@
         "dow_percent": -1.6227482507071609,
         "tx_percent": 0.6179992275009656,
         "time": "2022-02-22",
-        "profit": -8.0
+        "profit": -8.0,
+        "buy_price": 18019.0,
+        "sell_price": 18011.0
     },
     {
         "action": "buy",
@@ -15,7 +17,9 @@
         "dow_percent": 2.908947814505388,
         "tx_percent": 0.5500305572531807,
         "time": "2022-02-24",
-        "profit": -26.0
+        "profit": -26.0,
+        "buy_price": 17900.0,
+        "sell_price": 17874.0
     },
     {
         "action": "sell",
@@ -24,7 +28,9 @@
         "dow_percent": -3.1271616324648375,
         "tx_percent": 0.04670987329946868,
         "time": "2022-04-21",
-        "profit": -2.0
+        "profit": -2.0,
+        "buy_price": 17137.0,
+        "sell_price": 17135.0
     },
     {
         "action": "sell",
@@ -33,7 +39,9 @@
         "dow_percent": -2.255817400326071,
         "tx_percent": 0.05537098560354374,
         "time": "2022-04-28",
-        "profit": 14.0
+        "profit": 14.0,
+        "buy_price": 16249.0,
+        "sell_price": 16263.0
     },
     {
         "action": "sell",
@@ -42,7 +50,9 @@
         "dow_percent": -2.9122207156752933,
         "tx_percent": 0.03036744609778318,
         "time": "2022-05-04",
-        "profit": -3.0
+        "profit": -3.0,
+        "buy_price": 16473.0,
+        "sell_price": 16470.0
     },
     {
         "action": "sell",
@@ -51,7 +61,9 @@
         "dow_percent": -0.579965384265023,
         "tx_percent": 1.7646342947547768,
         "time": "2022-05-05",
-        "profit": -19.0
+        "profit": -19.0,
+        "buy_price": 16743.0,
+        "sell_price": 16724.0
     },
     {
         "action": "sell",
@@ -60,7 +72,9 @@
         "dow_percent": -3.837077446443348,
         "tx_percent": 0.06906510956237835,
         "time": "2022-05-17",
-        "profit": 15.0
+        "profit": 15.0,
+        "buy_price": 15901.0,
+        "sell_price": 15916.0
     },
     {
         "action": "sell",
@@ -69,7 +83,9 @@
         "dow_percent": -2.7614389201907,
         "tx_percent": 0.45612771576041294,
         "time": "2022-06-09",
-        "profit": 468.0
+        "profit": 468.0,
+        "buy_price": 16118.0,
+        "sell_price": 16586.0
     },
     {
         "action": "sell",
@@ -78,7 +94,9 @@
         "dow_percent": -2.377153277540786,
         "tx_percent": 0.3246145202571946,
         "time": "2022-06-15",
-        "profit": -36.0
+        "profit": -36.0,
+        "buy_price": 16003.0,
+        "sell_price": 15967.0
     },
     {
         "action": "buy",
@@ -87,7 +105,9 @@
         "dow_percent": 2.9769693797435224,
         "tx_percent": 0.21248339973439576,
         "time": "2022-06-23",
-        "profit": -2.0
+        "profit": -2.0,
+        "buy_price": 15092.0,
+        "sell_price": 15090.0
     },
     {
         "action": "sell",
@@ -96,7 +116,9 @@
         "dow_percent": -1.0186647754746785,
         "tx_percent": 1.773488948294973,
         "time": "2022-06-29",
-        "profit": 16.0
+        "profit": 16.0,
+        "buy_price": 15049.0,
+        "sell_price": 15065.0
     },
     {
         "action": "sell",
@@ -105,7 +127,9 @@
         "dow_percent": -3.222409435551811,
         "tx_percent": 0.10582710496725974,
         "time": "2022-08-25",
-        "profit": 8.0
+        "profit": 8.0,
+        "buy_price": 15095.0,
+        "sell_price": 15103.0
     },
     {
         "action": "sell",
@@ -114,7 +138,9 @@
         "dow_percent": -1.929562848618498,
         "tx_percent": 0.5402784512017732,
         "time": "2022-09-20",
-        "profit": 1.0
+        "profit": 1.0,
+        "buy_price": 14514.0,
+        "sell_price": 14515.0
     },
     {
         "action": "sell",
@@ -123,7 +149,9 @@
         "dow_percent": -1.7805136351601798,
         "tx_percent": 0.13860974426502184,
         "time": "2022-09-22",
-        "profit": 92.0
+        "profit": 92.0,
+        "buy_price": 14317.0,
+        "sell_price": 14409.0
     },
     {
         "action": "sell",
@@ -132,7 +160,9 @@
         "dow_percent": -2.000400748063051,
         "tx_percent": 0.8300567933595456,
         "time": "2022-10-06",
-        "profit": 34.0
+        "profit": 34.0,
+        "buy_price": 13814.0,
+        "sell_price": 13848.0
     },
     {
         "action": "buy",
@@ -141,7 +171,9 @@
         "dow_percent": 2.565030089776053,
         "tx_percent": 0.10871253300201895,
         "time": "2022-10-20",
-        "profit": 10.0
+        "profit": 10.0,
+        "buy_price": 12864.0,
+        "sell_price": 12874.0
     },
     {
         "action": "buy",
@@ -150,7 +182,9 @@
         "dow_percent": 2.9554036763099587,
         "tx_percent": 0.4416550441655044,
         "time": "2022-10-27",
-        "profit": -16.0
+        "profit": -16.0,
+        "buy_price": 12849.0,
+        "sell_price": 12833.0
     },
     {
         "action": "buy",
@@ -159,7 +193,9 @@
         "dow_percent": 3.863531581373905,
         "tx_percent": 0.15611061552185548,
         "time": "2022-11-09",
-        "profit": -13.0
+        "profit": -13.0,
+        "buy_price": 13473.0,
+        "sell_price": 13460.0
     },
     {
         "action": "sell",
@@ -168,7 +204,9 @@
         "dow_percent": -0.04069412551230998,
         "tx_percent": 2.0085499083938387,
         "time": "2022-12-01",
-        "profit": 7.0
+        "profit": 7.0,
+        "buy_price": 15026.0,
+        "sell_price": 15033.0
     },
     {
         "action": "sell",
@@ -177,6 +215,8 @@
         "dow_percent": -2.5984251968503935,
         "tx_percent": 0.5515081364471982,
         "time": "2022-12-14",
-        "profit": 9.0
+        "profit": 9.0,
+        "buy_price": 14597.0,
+        "sell_price": 14606.0
     }
 ]
