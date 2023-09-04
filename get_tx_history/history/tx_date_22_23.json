@@ -14040,6 +14040,40 @@
         }
     },
     {
+        "date": "2023-6-20",
+        "price": {
+            "open": {
+                "contract_date": "202306",
+                "date": "2023-06-20 00:00:21",
+                "futures_id": "MTX",
+                "price": 17236.0,
+                "volume": 2
+            },
+            "start": {
+                "contract_date": "202306",
+                "date": "2023-06-20 04:30:00",
+                "futures_id": "MTX",
+                "price": 17237.0,
+                "volume": 2
+            },
+            "end": {
+                "contract_date": "202306",
+                "date": "2023-06-20 04:59:00",
+                "futures_id": "MTX",
+                "price": 17234.0,
+                "volume": 2
+            },
+            "start_summer": {
+                "contract_date": "202306",
+                "date": "2023-06-20 03:30:38",
+                "futures_id": "MTX",
+                "price": 17235.0,
+                "volume": 4
+            },
+            "end_summer": null
+        }
+    },
+    {
         "date": "2023-6-21",
         "price": {
             "open": {
