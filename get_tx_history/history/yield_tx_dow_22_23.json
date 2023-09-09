@@ -8,7 +8,9 @@
         "time": "2022-02-22",
         "profit": -1600.0,
         "buy_price": 18019.0,
-        "sell_price": 18011.0
+        "sell_price": 18011.0,
+        "high": 18256,
+        "low": 17773
     },
     {
         "action": "buy",
@@ -19,7 +21,9 @@
         "time": "2022-02-24",
         "profit": -5200.0,
         "buy_price": 17900.0,
-        "sell_price": 17874.0
+        "sell_price": 17874.0,
+        "high": 18093,
+        "low": 17506
     },
     {
         "action": "sell",
@@ -30,7 +34,9 @@
         "time": "2022-04-21",
         "profit": -400.0,
         "buy_price": 17137.0,
-        "sell_price": 17135.0
+        "sell_price": 17135.0,
+        "high": 17222,
+        "low": 17053
     },
     {
         "action": "sell",
@@ -41,7 +47,9 @@
         "time": "2022-04-28",
         "profit": 2800.0,
         "buy_price": 16249.0,
-        "sell_price": 16263.0
+        "sell_price": 16263.0,
+        "high": 16416,
+        "low": 16202
     },
     {
         "action": "sell",
@@ -52,7 +60,9 @@
         "time": "2022-05-04",
         "profit": -600.0,
         "buy_price": 16473.0,
-        "sell_price": 16470.0
+        "sell_price": 16470.0,
+        "high": 16589,
+        "low": 16373
     },
     {
         "action": "sell",
@@ -63,7 +73,9 @@
         "time": "2022-05-05",
         "profit": -3800.0,
         "buy_price": 16743.0,
-        "sell_price": 16724.0
+        "sell_price": 16724.0,
+        "high": 16776,
+        "low": 16394
     },
     {
         "action": "sell",
@@ -74,7 +86,9 @@
         "time": "2022-05-17",
         "profit": 3000.0,
         "buy_price": 15901.0,
-        "sell_price": 15916.0
+        "sell_price": 15916.0,
+        "high": 16096,
+        "low": 15867
     },
     {
         "action": "sell",
@@ -85,7 +99,9 @@
         "time": "2022-06-09",
         "profit": 93600.0,
         "buy_price": 16118.0,
-        "sell_price": 16586.0
+        "sell_price": 16586.0,
+        "high": 16702,
+        "low": 16524
     },
     {
         "action": "sell",
@@ -96,7 +112,9 @@
         "time": "2022-06-15",
         "profit": -7200.0,
         "buy_price": 16003.0,
-        "sell_price": 15967.0
+        "sell_price": 15967.0,
+        "high": 15681,
+        "low": 15489
     },
     {
         "action": "buy",
@@ -107,7 +125,9 @@
         "time": "2022-06-23",
         "profit": -400.0,
         "buy_price": 15092.0,
-        "sell_price": 15090.0
+        "sell_price": 15090.0,
+        "high": 15175,
+        "low": 14804
     },
     {
         "action": "sell",
@@ -118,7 +138,9 @@
         "time": "2022-06-29",
         "profit": 3200.0,
         "buy_price": 15049.0,
-        "sell_price": 15065.0
+        "sell_price": 15065.0,
+        "high": 15295,
+        "low": 14980
     },
     {
         "action": "sell",
@@ -129,7 +151,9 @@
         "time": "2022-08-25",
         "profit": 3809.2,
         "buy_price": 15095.0,
-        "sell_price": 15103.0
+        "sell_price": 15103.0,
+        "high": 15225,
+        "low": 15033
     },
     {
         "action": "sell",
@@ -140,7 +164,9 @@
         "time": "2022-09-20",
         "profit": 466.71,
         "buy_price": 14514.0,
-        "sell_price": 14515.0
+        "sell_price": 14515.0,
+        "high": 14569,
+        "low": 14361
     },
     {
         "action": "sell",
@@ -151,7 +177,9 @@
         "time": "2022-09-22",
         "profit": 18400.0,
         "buy_price": 14317.0,
-        "sell_price": 14409.0
+        "sell_price": 14409.0,
+        "high": 14545,
+        "low": 14088
     },
     {
         "action": "sell",
@@ -162,7 +190,9 @@
         "time": "2022-10-06",
         "profit": 6800.0,
         "buy_price": 13814.0,
-        "sell_price": 13848.0
+        "sell_price": 13848.0,
+        "high": 13957,
+        "low": 13667
     },
     {
         "action": "buy",
@@ -173,7 +203,9 @@
         "time": "2022-10-20",
         "profit": 2000.0,
         "buy_price": 12864.0,
-        "sell_price": 12874.0
+        "sell_price": 12874.0,
+        "high": 13078,
+        "low": 12794
     },
     {
         "action": "buy",
@@ -184,7 +216,9 @@
         "time": "2022-10-27",
         "profit": -3200.0,
         "buy_price": 12849.0,
-        "sell_price": 12833.0
+        "sell_price": 12833.0,
+        "high": 12984,
+        "low": 12755
     },
     {
         "action": "buy",
@@ -195,7 +229,9 @@
         "time": "2022-11-09",
         "profit": -2600.0,
         "buy_price": 13473.0,
-        "sell_price": 13460.0
+        "sell_price": 13460.0,
+        "high": 13613,
+        "low": 13319
     },
     {
         "action": "sell",
@@ -206,7 +242,9 @@
         "time": "2022-12-01",
         "profit": 2787.0,
         "buy_price": 15026.0,
-        "sell_price": 15033.0
+        "sell_price": 15033.0,
+        "high": 15119,
+        "low": 14713
     },
     {
         "action": "sell",
@@ -217,7 +255,9 @@
         "time": "2022-12-14",
         "profit": 4071.9,
         "buy_price": 14597.0,
-        "sell_price": 14606.0
+        "sell_price": 14606.0,
+        "high": 14777,
+        "low": 14505
     },
     {
         "action": "sell",
@@ -228,7 +268,9 @@
         "time": "2023-06-13",
         "profit": -200.0,
         "buy_price": 17083.0,
-        "sell_price": 17082.0
+        "sell_price": 17082.0,
+        "high": 17274,
+        "low": 16932
     },
     {
         "action": "sell",
@@ -239,6 +281,8 @@
         "time": "2023-08-25",
         "profit": 8331.8,
         "buy_price": 17083.0,
-        "sell_price": 16381.4
+        "sell_price": 16381.4,
+        "high": 17074,
+        "low": 16315
     }
 ]
