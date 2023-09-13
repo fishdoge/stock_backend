@@ -10,7 +10,9 @@
         "buy_price": 18019.0,
         "sell_price": 18011.0,
         "high": 18256,
-        "low": 17773
+        "low": 17773,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "buy",
@@ -23,7 +25,9 @@
         "buy_price": 17900.0,
         "sell_price": 17874.0,
         "high": 18093,
-        "low": 17506
+        "low": 17506,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -36,7 +40,9 @@
         "buy_price": 17137.0,
         "sell_price": 17135.0,
         "high": 17222,
-        "low": 17053
+        "low": 17053,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -49,7 +55,9 @@
         "buy_price": 16249.0,
         "sell_price": 16263.0,
         "high": 16416,
-        "low": 16202
+        "low": 16202,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -62,7 +70,9 @@
         "buy_price": 16473.0,
         "sell_price": 16470.0,
         "high": 16589,
-        "low": 16373
+        "low": 16373,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -75,7 +85,9 @@
         "buy_price": 16743.0,
         "sell_price": 16724.0,
         "high": 16776,
-        "low": 16394
+        "low": 16394,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -88,7 +100,9 @@
         "buy_price": 15901.0,
         "sell_price": 15916.0,
         "high": 16096,
-        "low": 15867
+        "low": 15867,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -101,7 +115,9 @@
         "buy_price": 16118.0,
         "sell_price": 16586.0,
         "high": 16702,
-        "low": 16524
+        "low": 16524,
+        "30_stop": 6000,
+        "50_stop": 10000
     },
     {
         "action": "sell",
@@ -114,7 +130,9 @@
         "buy_price": 16003.0,
         "sell_price": 15967.0,
         "high": 15681,
-        "low": 15489
+        "low": 15489,
+        "30_stop": -6000,
+        "50_stop": null
     },
     {
         "action": "buy",
@@ -127,7 +145,9 @@
         "buy_price": 15092.0,
         "sell_price": 15090.0,
         "high": 15175,
-        "low": 14804
+        "low": 14804,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -140,7 +160,9 @@
         "buy_price": 15049.0,
         "sell_price": 15065.0,
         "high": 15295,
-        "low": 14980
+        "low": 14980,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -153,7 +175,9 @@
         "buy_price": 15095.0,
         "sell_price": 15103.0,
         "high": 15225,
-        "low": 15033
+        "low": 15033,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -166,7 +190,9 @@
         "buy_price": 14514.0,
         "sell_price": 14515.0,
         "high": 14569,
-        "low": 14361
+        "low": 14361,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -179,7 +205,9 @@
         "buy_price": 14317.0,
         "sell_price": 14409.0,
         "high": 14545,
-        "low": 14088
+        "low": 14088,
+        "30_stop": 6000,
+        "50_stop": 10000
     },
     {
         "action": "sell",
@@ -192,7 +220,9 @@
         "buy_price": 13814.0,
         "sell_price": 13848.0,
         "high": 13957,
-        "low": 13667
+        "low": 13667,
+        "30_stop": 6000,
+        "50_stop": 10000
     },
     {
         "action": "buy",
@@ -205,7 +235,9 @@
         "buy_price": 12864.0,
         "sell_price": 12874.0,
         "high": 13078,
-        "low": 12794
+        "low": 12794,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "buy",
@@ -218,7 +250,9 @@
         "buy_price": 12849.0,
         "sell_price": 12833.0,
         "high": 12984,
-        "low": 12755
+        "low": 12755,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "buy",
@@ -231,7 +265,9 @@
         "buy_price": 13473.0,
         "sell_price": 13460.0,
         "high": 13613,
-        "low": 13319
+        "low": 13319,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -244,7 +280,9 @@
         "buy_price": 15026.0,
         "sell_price": 15033.0,
         "high": 15119,
-        "low": 14713
+        "low": 14713,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -257,7 +295,9 @@
         "buy_price": 14597.0,
         "sell_price": 14606.0,
         "high": 14777,
-        "low": 14505
+        "low": 14505,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -270,7 +310,9 @@
         "buy_price": 17083.0,
         "sell_price": 17082.0,
         "high": 17274,
-        "low": 16932
+        "low": 16932,
+        "30_stop": null,
+        "50_stop": null
     },
     {
         "action": "sell",
@@ -283,6 +325,8 @@
         "buy_price": 17083.0,
         "sell_price": 16381.4,
         "high": 17074,
-        "low": 16315
+        "low": 16315,
+        "30_stop": 6000,
+        "50_stop": null
     }
 ]
