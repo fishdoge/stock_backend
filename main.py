@@ -4,9 +4,40 @@ import yfinance as yf
 import json 
 import requests as r
 from bs4 import BeautifulSoup
+from flask import request  # Import the request object from flask
 
 
 app = Flask(__name__)
+
+# Define a Data Model for Trade Records
+class TradeRecord:
+    def __init__(self, stop_30, stop_50, action, buy_price, dow_percent, high, is_summer, low, percentage_gap, profit, sell_price, time, tx_percent):
+        self.data = {
+            '30_stop': stop_30,
+            '50_stop': stop_50,
+            'action': action,
+            'buy_price': buy_price,
+            'dow_percent': dow_percent,
+            'high': high,
+            'is_summer': is_summer,
+            'low': low,
+            'percentage_gap': percentage_gap,
+            'profit': profit,
+            'sell_price': sell_price,
+            'time': time,
+            'tx_percent': tx_percent
+        }
+
+    def to_dict(self):
+        return self.data
+
+# Read JSON file 
+def readjson(jsonFilePath):
+    jdict = {}
+    with open(jsonFilePath, encoding='utf-8') as j:
+        jdict = json.load(j)
+    return jdict
+
 
 
 @app.route("/")
@@ -17,22 +48,6 @@ def hello() -> str:
         A string with the words 'Hello World!'.
     """
     return "test   !  "
-
-# read json file 
-def readjson(jsonFilePath):
-    jdict = {}
-    with open(jsonFilePath, encoding='utf-8') as j:
-        jdict = json.load(j)
-    return jdict
-
-# profit and yield history
-@app.route('/tradehistory')
-def tradehistory():
-  jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
-  his = readjson(jsonFilePath)
-  data = {"data": his}
-  # print(type(his), data)
-  return data
 
 # profit and yield history
 @app.route('/yphistory')
@@ -91,6 +106,93 @@ def getYm():
   # print(tags)
   return {"open": open,"price": price, "change": change, "percent": percent}
 
+@app.route('/tradehistory/add_record', methods=['POST'])
+def add_trade_record():
+    try:
+        request_data = request.get_json()
+        required_fields = [
+            '30_stop', '50_stop', 'action', 'buy_price', 'dow_percent', 'high', 
+            'is_summer', 'low', 'percentage_gap', 'profit', 'sell_price', 'time', 'tx_percent'
+        ]
+        if not all(field in request_data for field in required_fields):
+            return "Missing required fields in the request data", 400
+
+        # Rename the fields from request_data
+        request_data['stop_30'] = request_data.pop('30_stop')
+        request_data['stop_50'] = request_data.pop('50_stop')
+
+        new_record = TradeRecord(**request_data)
+        jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
+        existing_data = readjson(jsonFilePath)
+        existing_data.append(new_record.to_dict())
+        with open(jsonFilePath, 'w', encoding='utf-8') as j:
+            json.dump(existing_data, j, ensure_ascii=False, indent=4)
+
+        return "Trade record added successfully"
+    except Exception as e:
+        return str(e), 500
+
+
+# Update (Modify Trade Record in JSON File)
+@app.route('/tradehistory/update_record/<int:id>', methods=['PUT'])
+def update_trade_record(id):
+    try:
+        updated_data = request.get_json()
+        jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
+        existing_data = readjson(jsonFilePath)
+
+        required_fields = [
+            '30_stop', '50_stop', 'action', 'buy_price', 'dow_percent', 'high',
+            'is_summer', 'low', 'percentage_gap', 'profit', 'sell_price', 'time', 'tx_percent'
+        ]
+        if not all(field in updated_data for field in required_fields):
+            return "Missing required fields in the request data", 400
+
+        if 0 <= id < len(existing_data):
+            # Rename the field in existing_data
+            if '30_stop' in updated_data:
+                existing_data[id]['30_stop'] = updated_data.pop('30_stop')
+            if '50_stop' in updated_data:
+                existing_data[id]['50_stop'] = updated_data.pop('50_stop')
+
+            existing_data[id].update(updated_data)
+
+            with open(jsonFilePath, 'w', encoding='utf-8') as j:
+                json.dump(existing_data, j, ensure_ascii=False, indent=4)
+
+            return "Trade record updated successfully"
+        else:
+            return "Trade record not found", 404
+    except Exception as e:
+        return str(e), 500
+
+# Read (Retrieve) Trade History from JSON File
+@app.route('/tradehistory', methods=['GET'])
+def get_trade_history():
+    jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
+    his = readjson(jsonFilePath)
+    data = {"data": his}
+    return data
+
+# Delete (Remove Trade Record from JSON File)
+@app.route('/tradehistory/delete_record/<int:id>', methods=['DELETE'])
+def delete_trade_record(id):
+    try:
+        jsonFilePath = r'./get_tx_history/history/yield_tx_dow_22_23.json'
+        existing_data = readjson(jsonFilePath)
+
+        if 0 <= id < len(existing_data):
+            existing_data.pop(id)
+
+            with open(jsonFilePath, 'w', encoding='utf-8') as j:
+                json.dump(existing_data, j, ensure_ascii=False, indent=4)
+
+            return "Trade record deleted successfully"
+        else:
+            return "Trade record not found", 404
+    except Exception as e:
+        return str(e), 500
+
 
 if __name__ == "__main__":
     # This is used when running locally only. When deploying to Google App
@@ -99,4 +201,4 @@ if __name__ == "__main__":
 # [END gae_flex_quickstart]
 
 
-# {'SymbolID': 'TXFH3-M', 'SpotID': '', 'DispCName': '臺指期083', 'DispEName': 'TX083', 'Status': '', 'CBidPrice1': '17244.00', 'CBidSize1': '14', 'CAskPrice1': '17246.00', 'CAskSize1': '16', 'CTotalVolume': '10547', 'COpenPrice': '17199.00', 'CHighPrice': '17247.00', 'CLowPrice': '17193.00', 'CLastPrice': '17245.00', 'CRefPrice': '17182.00', 'CCeilPrice': '18900.00', 'CFloorPrice': '15464.00', 'SettlementPrice': '','OpenInterest': '', 'CDate': '20230725', 'CTime': '192844', 'CTestTime': '145955', 'CDiff': '63.00', 'CDiffRate': '0.37', 'CAmpRate': '0.31', 'CBestBidPrice': '17244.00', 'CBestAskPrice': '17246.00', 'CBestBidSize': '14', 'CBestAskSize': '16', 'CTestPrice': '17197.00', 'CTestVolume': '55'}
+# {'SymbolID': 'TXFH3-M', 'SpotID': '', 'DispCName': '臺指期 083', 'DispEName': 'TX083', 'Status': '', 'CBidPrice1': '17244.00', 'CBidSize1': '14', 'CAskPrice1': '17246.00', 'CAskSize1': '16', 'CTotalVolume': '10547', 'COpenPrice': '17199.00', 'CHighPrice': '17247.00', 'CLowPrice': '17193.00', 'CLastPrice': '17245.00', 'CRefPrice': '17182.00', 'CCeilPrice': '18900.00', 'CFloorPrice': '15464.00', 'SettlementPrice': '','OpenInterest': '', 'CDate': '20230725', 'CTime': '192844', 'CTestTime': '145955', 'CDiff': '63.00', 'CDiffRate': '0.37', 'CAmpRate': '0.31', 'CBestBidPrice': '17244.00', 'CBestAskPrice': '17246.00', 'CBestBidSize': '14', 'CBestAskSize': '16', 'CTestPrice': '17197.00', 'CTestVolume': '55'}
