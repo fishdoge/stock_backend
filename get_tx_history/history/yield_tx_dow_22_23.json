@@ -328,5 +328,20 @@
         "low": 16315,
         "30_stop": 6000,
         "50_stop": null
+    },
+    {
+        "30_stop": 6000,
+        "50_stop": 10000,
+        "action": "sell",
+        "buy_price": 18961,
+        "dow_percent": -0.13,
+        "high": 19330,
+        "is_summer": false,
+        "low": 18961,
+        "percentage_gap": -2.08,
+        "profit": 73800,
+        "sell_price": 19330,
+        "time": "2024-03-04",
+        "tx_percent": 1.95
     }
 ]
