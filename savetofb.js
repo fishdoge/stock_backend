@@ -55,7 +55,7 @@ async function readData(path) {
 
 // const r = readData('stockData')
 
- const getDataObj = async (qCollection) => {
+const getDataObj = async (qCollection) => {
   let users = {}
 
   const querySnapshot = await getDocs(
@@ -85,13 +85,36 @@ const addData = async (collection, uid, data) => {
   }
 };
 
-const yJSON = require("./get_tx_history/history/yield_tx_dow_22_23.json")
-async function uploadYieldJSON(){
-  // yJSON.forEach()
-  for (idx in yJSON){
-    let data =yJSON[idx]
+// const yJSON = require("./get_tx_history/history/yield_tx_dow_22_23.json")
+const yJSON = require("./get_tx_history/history/yield_m_22_23.json")
+async function uploadYieldJSON() {
+  for (idx in yJSON['month_profit']) {
+    let data = yJSON['month_profit'][idx]
     console.log(data)
-    addData("22_23_json", data.time, data)
+    // addData("22_23_json", data.time, data)
+    addData("yield_m_22_23", "month_profit", { [data.time]: data })
+  }
+  for (idx in yJSON['month_yield']) {
+    let data = yJSON['month_yield'][idx]
+    const yield = data['yield']
+    data['yield'] = {}
+    for (y in yield) {
+      data['yield'][+y + 1] = yield[y]
+      // console.log(y)
+    }
+    console.log(data)
+    addData("yield_m_22_23", "month_yield", { [data.time]: data })
   }
 }
 uploadYieldJSON()
+// async function a() {
+//   await setDoc(doc(database, "cities", "LA",),
+//     {
+//       oo: {
+//         name: "Los Angeles",
+//         state: "CA",
+//         country: "USA"
+//       }
+//     })
+// }
+// a()
