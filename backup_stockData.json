@@ -1,0 +1,5434 @@
+{
+  "0MQMUDgL1M20ceOgGsZZ": {
+    "stockData": {
+      "time": {
+        "datetime": "2023-11-02T13:37:02.544870+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "day_of_week": 4,
+        "dst": false,
+        "raw_offset": 28800,
+        "unixtime": 1698903422,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T05:37:02.544870+00:00",
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "utc_offset": "+08:00"
+      },
+      "ym": {
+        "change": 7,
+        "open": 33358,
+        "price": 33358,
+        "percent": 0.02
+      },
+      "tx": {
+        "percent": 2.12,
+        "change": 341,
+        "price": 16391,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.1
+    }
+  },
+  "0mjfjkSm0NdmujbBltdl": {
+    "stockData": {
+      "time": {
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "week_number": 44,
+        "dst_offset": 0,
+        "unixtime": 1698908342,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T14:59:02.798304+08:00",
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:59:02.798304+00:00",
+        "dst_from": null,
+        "dst_until": null
+      },
+      "ym": {
+        "open": 33358,
+        "percent": 0,
+        "change": 1,
+        "price": 33352
+      },
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050,
+        "change": 340
+      },
+      "tx_ym_gap": -2.12
+    }
+  },
+  "0zKgHaQN92gqqeneQ9cz": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "utc_datetime": "2023-11-02T06:21:02.671669+00:00",
+        "dst_until": null,
+        "unixtime": 1698906062,
+        "dst_offset": 0,
+        "week_number": 44,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T14:21:02.671669+08:00",
+        "dst_from": null,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "dst": false
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33353,
+        "percent": 0.01,
+        "change": 2
+      }
+    }
+  },
+  "12gwBEAe7u5KyNKPnjOs": {
+    "stockData": {
+      "time": {
+        "dst_until": null,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T05:52:03.105216+00:00",
+        "week_number": 44,
+        "dst_from": null,
+        "unixtime": 1698904323,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:52:03.105216+08:00"
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33362,
+        "percent": 0.03,
+        "change": 11
+      },
+      "tx_ym_gap": -2.0900000000000003,
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050,
+        "change": 340
+      }
+    }
+  },
+  "18uf7GgKMTXxA8EM6et6": {
+    "stockData": {
+      "ym": {
+        "percent": 0.06,
+        "price": 33370,
+        "open": 33358,
+        "change": 19
+      },
+      "time": {
+        "week_number": 44,
+        "dst": false,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "raw_offset": 28800,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T03:54:03.360024+00:00",
+        "datetime": "2023-11-02T11:54:03.360024+08:00",
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "unixtime": 1698897243
+      },
+      "tx": {
+        "change": 338,
+        "price": 16388,
+        "open": 16050,
+        "percent": 2.11
+      },
+      "tx_ym_gap": -2.05
+    }
+  },
+  "1HfF6uqs7qdhsGf2Dgxb": {
+    "stockData": {
+      "time": {
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "datetime": "2023-11-02T12:34:03.965930+08:00",
+        "utc_datetime": "2023-11-02T04:34:03.965930+00:00",
+        "unixtime": 1698899643,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst": false,
+        "week_number": 44,
+        "dst_until": null,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00"
+      },
+      "ym": {
+        "change": 20,
+        "price": 33371,
+        "open": 33358,
+        "percent": 0.06
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.07,
+        "price": 16383,
+        "change": 333
+      },
+      "tx_ym_gap": -2.01
+    }
+  },
+  "1VaMOjXfxEC5pu4JmUzE": {
+    "stockData": {
+      "time": {
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "dst": false,
+        "dst_from": null,
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T14:57:03.120868+08:00",
+        "day_of_week": 4,
+        "unixtime": 1698908223,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:57:03.120868+00:00"
+      },
+      "ym": {
+        "change": 2,
+        "price": 33353,
+        "open": 33358,
+        "percent": 0.01
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "tx": {
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050,
+        "change": 340
+      }
+    }
+  },
+  "1bDWepRWcCdbczMgi45C": {
+    "stockData": {
+      "ym": {
+        "price": 33362,
+        "change": 11,
+        "percent": 0.03,
+        "open": 33358
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:32:02.591783+08:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst_until": null,
+        "unixtime": 1698903122,
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "dst": false,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:32:02.591783+00:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "day_of_year": 306
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.16,
+        "price": 16397,
+        "change": 347
+      },
+      "tx_ym_gap": -2.1300000000000003
+    }
+  },
+  "1pljKZoFTv0o5H2ncZ9L": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "percent": 0.04,
+        "price": 33363,
+        "change": 12
+      },
+      "tx_ym_gap": -2.01,
+      "time": {
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T04:44:03.201418+00:00",
+        "dst_until": null,
+        "dst_from": null,
+        "week_number": 44,
+        "dst": false,
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "unixtime": 1698900243,
+        "datetime": "2023-11-02T12:44:03.201418+08:00"
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16379,
+        "percent": 2.05,
+        "change": 329
+      }
+    }
+  },
+  "2024-01-19": {
+    "ym": {
+      "percent": -0.07,
+      "change": -26,
+      "open": 37645,
+      "price": 37633
+    },
+    "tx": {
+      "percent": 1.94,
+      "price": 17618,
+      "change": 336,
+      "open": 17282
+    },
+    "time": {
+      "week_number": 3,
+      "raw_offset": 28800,
+      "utc_datetime": "2024-01-19T03:40:05.194093+00:00",
+      "dst_offset": 0,
+      "unixtime": 1705635605,
+      "abbreviation": "CST",
+      "dst_from": null,
+      "client_ip": "34.81.170.189",
+      "dst": false,
+      "timezone": "Asia/Taipei",
+      "datetime": "2024-01-19T11:40:05.194093+08:00",
+      "day_of_week": 5,
+      "day_of_year": 19,
+      "utc_offset": "+08:00",
+      "dst_until": null
+    },
+    "tx_ym_gap": -2.01
+  },
+  "2024-02-13": {
+    "time": {
+      "utc_datetime": "2024-02-13T19:53:03.497855+00:00",
+      "dst_until": null,
+      "raw_offset": 28800,
+      "client_ip": "35.187.150.252",
+      "day_of_week": 3,
+      "timezone": "Asia/Taipei",
+      "unixtime": 1707853983,
+      "dst": false,
+      "dst_from": null,
+      "datetime": "2024-02-14T03:53:03.497855+08:00",
+      "abbreviation": "CST",
+      "utc_offset": "+08:00",
+      "dst_offset": 0,
+      "day_of_year": 45,
+      "week_number": 7
+    },
+    "ym": {
+      "open": 38863,
+      "change": -737.64,
+      "price": 38059.74,
+      "percent": -1.9
+    },
+    "tx_ym_gap": -2.01,
+    "tx": {
+      "open": 18085,
+      "percent": 0.11,
+      "change": 19,
+      "price": 18104
+    }
+  },
+  "2024-02-15": {
+    "tx_ym_gap": -2.12,
+    "time": {
+      "utc_datetime": "2024-02-15T00:46:03.049883+00:00",
+      "day_of_year": 46,
+      "dst_offset": 0,
+      "dst": false,
+      "week_number": 7,
+      "day_of_week": 4,
+      "datetime": "2024-02-15T08:46:03.049883+08:00",
+      "utc_offset": "+08:00",
+      "dst_until": null,
+      "raw_offset": 28800,
+      "unixtime": 1707957963,
+      "abbreviation": "CST",
+      "dst_from": null,
+      "client_ip": "35.234.29.22",
+      "timezone": "Asia/Taipei"
+    },
+    "tx": {
+      "change": 455,
+      "price": 18540,
+      "percent": 2.52,
+      "open": 18085
+    },
+    "ym": {
+      "percent": 0.4,
+      "change": 151.47,
+      "open": 38490,
+      "price": 38424.27
+    }
+  },
+  "2024-03-04": {
+    "tx_ym_gap": -2.08,
+    "time": {
+      "abbreviation": "CST",
+      "utc_datetime": "2024-03-04T02:47:03.641302+00:00",
+      "raw_offset": 28800,
+      "timezone": "Asia/Taipei",
+      "day_of_year": 64,
+      "client_ip": "34.81.32.13",
+      "dst": false,
+      "dst_from": null,
+      "datetime": "2024-03-04T10:47:03.641302+08:00",
+      "dst_offset": 0,
+      "day_of_week": 1,
+      "utc_offset": "+08:00",
+      "week_number": 10,
+      "dst_until": null,
+      "unixtime": 1709520423
+    },
+    "ym": {
+      "price": 39092,
+      "change": -50,
+      "open": 39114,
+      "percent": -0.13
+    },
+    "tx": {
+      "change": 369,
+      "open": 18961,
+      "price": 19330,
+      "percent": 1.95
+    }
+  },
+  "3P9XHmpYnEivJOrcnO1s": {
+    "stockData": {
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "unixtime": 1698905283,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:08:03.391281+08:00",
+        "week_number": 44,
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "dst": false,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:08:03.391281+00:00"
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "price": 16390,
+        "change": 340
+      },
+      "ym": {
+        "open": 33358,
+        "change": 5,
+        "percent": 0.01,
+        "price": 33356
+      }
+    }
+  },
+  "4211dE4IkFOxVwj9iIKR": {
+    "stockData": {
+      "ym": {
+        "change": 13,
+        "percent": 0.04,
+        "price": 33364,
+        "open": 33358
+      },
+      "tx": {
+        "change": 341,
+        "price": 16391,
+        "percent": 2.12,
+        "open": 16050
+      },
+      "time": {
+        "dst": false,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:45:03.048636+08:00",
+        "dst_until": null,
+        "unixtime": 1698903903,
+        "dst_offset": 0,
+        "utc_datetime": "2023-11-02T05:45:03.048636+00:00",
+        "abbreviation": "CST",
+        "dst_from": null,
+        "day_of_week": 4
+      },
+      "tx_ym_gap": -2.08
+    }
+  },
+  "4SGXOkmXL2LuN4bDorS4": {
+    "stockData": {
+      "ym": {
+        "percent": 0,
+        "change": 0,
+        "price": 33351,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.12,
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050
+      },
+      "time": {
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "dst": false,
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T06:33:02.926864+00:00",
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698906782,
+        "week_number": 44,
+        "dst_until": null,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:33:02.926864+08:00",
+        "day_of_year": 306
+      }
+    }
+  },
+  "57zXP8P4Clc3mCjmT59D": {
+    "stockData": {
+      "time": {
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "dst_until": null,
+        "unixtime": 1698901503,
+        "dst_from": null,
+        "week_number": 44,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:05:03.708545+00:00",
+        "datetime": "2023-11-02T13:05:03.708545+08:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei"
+      },
+      "tx_ym_gap": -2.05,
+      "tx": {
+        "price": 16382,
+        "percent": 2.07,
+        "change": 332,
+        "open": 16050
+      },
+      "ym": {
+        "percent": 0.02,
+        "open": 33358,
+        "change": 7,
+        "price": 33358
+      }
+    }
+  },
+  "63nKB9YGmSUbO7wwV7D4": {
+    "stockData": {
+      "time": {
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T05:49:04.129264+00:00",
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "day_of_week": 4,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T13:49:04.129264+08:00",
+        "day_of_year": 306,
+        "dst_until": null,
+        "unixtime": 1698904144,
+        "week_number": 44
+      },
+      "tx_ym_gap": -2.08,
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "price": 16390,
+        "change": 340
+      },
+      "ym": {
+        "change": 15,
+        "open": 33358,
+        "percent": 0.04,
+        "price": 33366
+      }
+    }
+  },
+  "6dwIn1syEog83jkXCMxk": {
+    "stockData": {
+      "tx": {
+        "percent": 2.09,
+        "open": 16050,
+        "change": 335,
+        "price": 16385
+      },
+      "ym": {
+        "price": 33372,
+        "open": 33358,
+        "change": 21,
+        "percent": 0.06
+      },
+      "time": {
+        "dst": false,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T04:33:04.722205+00:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:33:04.722205+08:00",
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "dst_until": null,
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "unixtime": 1698899584
+      },
+      "tx_ym_gap": -2.03
+    }
+  },
+  "7RjjnTn2NoQ2fr95vZs1": {
+    "stockData": {
+      "tx_ym_gap": -2.08,
+      "tx": {
+        "change": 340,
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "ym": {
+        "percent": 0.04,
+        "open": 33358,
+        "change": 12,
+        "price": 33363
+      },
+      "time": {
+        "day_of_year": 306,
+        "dst": false,
+        "raw_offset": 28800,
+        "week_number": 44,
+        "dst_offset": 0,
+        "dst_until": null,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698904565,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T13:56:05.054238+08:00",
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:56:05.054238+00:00",
+        "dst_from": null,
+        "abbreviation": "CST"
+      }
+    }
+  },
+  "7U7sLiyRln7JLRWxRtfW": {
+    "stockData": {
+      "tx_ym_gap": -2.08,
+      "ym": {
+        "price": 33363,
+        "open": 33358,
+        "change": 12,
+        "percent": 0.04
+      },
+      "tx": {
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050,
+        "change": 340
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T14:01:03.237290+08:00",
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T06:01:03.237290+00:00",
+        "day_of_week": 4,
+        "dst": false,
+        "dst_from": null,
+        "week_number": 44,
+        "dst_offset": 0,
+        "unixtime": 1698904863,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "dst_until": null
+      }
+    }
+  },
+  "7nwzu9Iv16Otnif9rtiq": {
+    "stockData": {
+      "time": {
+        "utc_offset": "+08:00",
+        "dst": false,
+        "datetime": "2023-11-02T13:50:02.838307+08:00",
+        "week_number": 44,
+        "unixtime": 1698904202,
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:50:02.838307+00:00",
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "abbreviation": "CST",
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "day_of_year": 306
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33365,
+        "percent": 0.04,
+        "change": 14
+      },
+      "tx_ym_gap": -2.08,
+      "tx": {
+        "price": 16390,
+        "open": 16050,
+        "change": 340,
+        "percent": 2.12
+      }
+    }
+  },
+  "7y6pSHBDuA8VSusltcq2": {
+    "stockData": {
+      "time": {
+        "week_number": 48,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "client_ip": "34.81.87.242",
+        "day_of_week": 5,
+        "dst_until": null,
+        "dst_offset": 0,
+        "datetime": "2023-12-01T08:48:03.340534+08:00",
+        "dst_from": null,
+        "dst": false,
+        "day_of_year": 335,
+        "utc_datetime": "2023-12-01T00:48:03.340534+00:00",
+        "unixtime": 1701391683
+      },
+      "tx": {
+        "change": 102,
+        "open": 17189,
+        "percent": -0.59,
+        "price": 17291
+      },
+      "ym": {
+        "percent": 1.47,
+        "price": 35950.89,
+        "open": 35986,
+        "change": 520.47
+      },
+      "tx_ym_gap": 2.06
+    }
+  },
+  "865ocrnC6m1SSvDn3D3z": {
+    "stockData": {
+      "time": {
+        "utc_datetime": "2023-11-02T05:26:02.467850+00:00",
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "unixtime": 1698902762,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:26:02.467850+08:00",
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "raw_offset": 28800,
+        "dst": false,
+        "day_of_year": 306,
+        "dst_from": null
+      },
+      "tx": {
+        "change": 337,
+        "price": 16387,
+        "percent": 2.1,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.06,
+      "ym": {
+        "price": 33364,
+        "change": 13,
+        "percent": 0.04,
+        "open": 33358
+      }
+    }
+  },
+  "8Grcf8LbnyibgP78wh4D": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "change": 13,
+        "price": 33364,
+        "percent": 0.04
+      },
+      "time": {
+        "abbreviation": "CST",
+        "dst_until": null,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst_from": null,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T05:41:02.809268+00:00",
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:41:02.809268+08:00",
+        "unixtime": 1698903662,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "raw_offset": 28800
+      },
+      "tx_ym_gap": -2.06,
+      "tx": {
+        "open": 16050,
+        "percent": 2.1,
+        "price": 16387,
+        "change": 337
+      }
+    }
+  },
+  "8R05uFSIiXcreUeFDm8i": {
+    "stockData": {
+      "time": {
+        "unixtime": 1698904503,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "week_number": 44,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T13:55:03.245414+08:00",
+        "utc_datetime": "2023-11-02T05:55:03.245414+00:00",
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.0700000000000003,
+      "tx": {
+        "percent": 2.12,
+        "open": 16050,
+        "change": 340,
+        "price": 16390
+      },
+      "ym": {
+        "price": 33367,
+        "change": 16,
+        "percent": 0.05,
+        "open": 33358
+      }
+    }
+  },
+  "96oxEsGDFY9e47ug8gPH": {
+    "stockData": {
+      "ym": {
+        "price": 33347,
+        "open": 33358,
+        "percent": -0.01,
+        "change": -4
+      },
+      "time": {
+        "dst_until": null,
+        "dst_offset": 0,
+        "unixtime": 1698907143,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T06:39:03.451739+00:00",
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:39:03.451739+08:00",
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst": false,
+        "dst_from": null,
+        "week_number": 44,
+        "client_ip": "35.185.153.172"
+      },
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      }
+    }
+  },
+  "9RJERTcqrl7T8TvdDORd": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "change": 336,
+        "price": 16386,
+        "percent": 2.09
+      },
+      "ym": {
+        "price": 33360,
+        "percent": 0.03,
+        "change": 9,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.06,
+      "time": {
+        "dst_from": null,
+        "dst_until": null,
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T05:19:03.280358+00:00",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst": false,
+        "unixtime": 1698902343,
+        "datetime": "2023-11-02T13:19:03.280358+08:00",
+        "week_number": 44,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei"
+      }
+    }
+  },
+  "9bwGKVEbXK76FPfheb4L": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      },
+      "ym": {
+        "open": 33358,
+        "percent": -0.01,
+        "change": -4,
+        "price": 33347
+      },
+      "tx_ym_gap": -2.13,
+      "time": {
+        "dst_until": null,
+        "dst_from": null,
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "dst": false,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:37:03.350515+00:00",
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:37:03.350515+08:00",
+        "unixtime": 1698907023,
+        "week_number": 44,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "utc_offset": "+08:00"
+      }
+    }
+  },
+  "AGa9nXclnE90mHINVruW": {
+    "stockData": {
+      "ym": {
+        "change": 8,
+        "open": 33358,
+        "price": 33359,
+        "percent": 0.02
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "unixtime": 1698905522,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:12:02.738973+00:00",
+        "utc_offset": "+08:00",
+        "day_of_year": 306,
+        "week_number": 44,
+        "datetime": "2023-11-02T14:12:02.738973+08:00",
+        "dst": false,
+        "dst_until": null
+      },
+      "tx_ym_gap": -2.1,
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      }
+    }
+  },
+  "AobjMSXIx1XYIEsQYCLs": {
+    "stockData": {
+      "time": {
+        "day_of_year": 306,
+        "dst_from": null,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "dst_until": null,
+        "unixtime": 1698902043,
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T13:14:03.559647+08:00",
+        "utc_datetime": "2023-11-02T05:14:03.559647+00:00",
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "dst": false
+      },
+      "tx_ym_gap": -2.06,
+      "tx": {
+        "price": 16386,
+        "change": 336,
+        "open": 16050,
+        "percent": 2.09
+      },
+      "ym": {
+        "percent": 0.03,
+        "open": 33358,
+        "change": 9,
+        "price": 33360
+      }
+    }
+  },
+  "Br3jyhXy2OiLOITp5p4N": {
+    "stockData": {
+      "ym": {
+        "change": 18,
+        "price": 33369,
+        "open": 33358,
+        "percent": 0.05
+      },
+      "tx_ym_gap": -2.0500000000000003,
+      "time": {
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T03:51:03.423114+00:00",
+        "abbreviation": "CST",
+        "unixtime": 1698897063,
+        "dst": false,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T11:51:03.423114+08:00",
+        "dst_from": null,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst_until": null
+      },
+      "tx": {
+        "open": 16050,
+        "change": 337,
+        "price": 16387,
+        "percent": 2.1
+      }
+    }
+  },
+  "CBt6oCiqZKVenPibfeGj": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "change": 4,
+        "price": 33355,
+        "percent": 0.01
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "dst_until": null,
+        "week_number": 44,
+        "datetime": "2023-11-02T14:55:02.570418+08:00",
+        "utc_datetime": "2023-11-02T06:55:02.570418+00:00",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "dst": false,
+        "unixtime": 1698908102,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "dst_offset": 0
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390
+      }
+    }
+  },
+  "CJl0Pg8RKT6K8WLrerlX": {
+    "stockData": {
+      "tx": {
+        "change": 340,
+        "open": 16050,
+        "percent": 2.12,
+        "price": 16390
+      },
+      "time": {
+        "utc_offset": "+08:00",
+        "unixtime": 1698904803,
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "week_number": 44,
+        "dst_from": null,
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T06:00:03.238183+00:00",
+        "day_of_year": 306,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:00:03.238183+08:00"
+      },
+      "ym": {
+        "percent": 0.04,
+        "change": 12,
+        "price": 33363,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.08
+    }
+  },
+  "DH7gDKTSKTTeQg19xvxy": {
+    "stockData": {
+      "time": {
+        "dst_until": null,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "day_of_week": 4,
+        "unixtime": 1698903962,
+        "dst_from": null,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T05:46:02.808801+00:00",
+        "datetime": "2023-11-02T13:46:02.808801+08:00"
+      },
+      "ym": {
+        "price": 33365,
+        "open": 33358,
+        "change": 14,
+        "percent": 0.04
+      },
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.08
+    }
+  },
+  "DmoupxA8s994MPPLJWNM": {
+    "stockData": {
+      "tx_ym_gap": -2.05,
+      "ym": {
+        "price": 33359,
+        "open": 33358,
+        "change": 8,
+        "percent": 0.02
+      },
+      "tx": {
+        "price": 16382,
+        "change": 332,
+        "percent": 2.07,
+        "open": 16050
+      },
+      "time": {
+        "unixtime": 1698901922,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst_from": null,
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T05:12:02.976171+00:00",
+        "dst": false,
+        "datetime": "2023-11-02T13:12:02.976171+08:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800
+      }
+    }
+  },
+  "F8Z6tHLCTVVijNcOB31t": {
+    "stockData": {
+      "time": {
+        "datetime": "2023-11-02T13:07:05.325984+08:00",
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst_until": null,
+        "unixtime": 1698901625,
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T05:07:05.325984+00:00",
+        "dst": false,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "week_number": 44
+      },
+      "tx_ym_gap": -2.02,
+      "tx": {
+        "percent": 2.03,
+        "change": 326,
+        "open": 16050,
+        "price": 16376
+      },
+      "ym": {
+        "open": 33358,
+        "change": 5,
+        "price": 33356,
+        "percent": 0.01
+      }
+    }
+  },
+  "F9dUHWoKrU6gu1zSvhhM": {
+    "stockData": {
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050
+      },
+      "ym": {
+        "change": -3,
+        "percent": -0.01,
+        "open": 33358,
+        "price": 33348
+      },
+      "time": {
+        "utc_offset": "+08:00",
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:38:03.700097+00:00",
+        "datetime": "2023-11-02T14:38:03.700097+08:00",
+        "dst": false,
+        "unixtime": 1698907083,
+        "day_of_week": 4,
+        "dst_until": null,
+        "dst_offset": 0,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "week_number": 44,
+        "raw_offset": 28800
+      }
+    }
+  },
+  "FSKvFyZFwiVhfXeYLVgD": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "time": {
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "week_number": 44,
+        "dst": false,
+        "utc_datetime": "2023-11-02T05:36:02.655604+00:00",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:36:02.655604+08:00",
+        "dst_from": null,
+        "unixtime": 1698903362,
+        "dst_until": null
+      },
+      "ym": {
+        "price": 33358,
+        "open": 33358,
+        "percent": 0.02,
+        "change": 7
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16394,
+        "percent": 2.14,
+        "change": 344
+      }
+    }
+  },
+  "FXPDMq0HoSOTrAf3S4rj": {
+    "stockData": {
+      "tx_ym_gap": -2.01,
+      "time": {
+        "utc_offset": "+08:00",
+        "unixtime": 1698896823,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "dst": false,
+        "dst_until": null,
+        "datetime": "2023-11-02T11:47:03.888868+08:00",
+        "day_of_week": 4,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T03:47:03.888868+00:00",
+        "day_of_year": 306,
+        "week_number": 44
+      },
+      "tx": {
+        "price": 16383,
+        "open": 16050,
+        "percent": 2.07,
+        "change": 333
+      },
+      "ym": {
+        "open": 33358,
+        "change": 21,
+        "percent": 0.06,
+        "price": 33372
+      }
+    }
+  },
+  "FfxApMTFyVAy1Zs9YjCZ": {
+    "stockData": {
+      "time": {
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698903482,
+        "week_number": 44,
+        "dst_until": null,
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T05:38:02.519317+00:00",
+        "dst": false,
+        "abbreviation": "CST",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T13:38:02.519317+08:00",
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306
+      },
+      "tx_ym_gap": -2.0900000000000003,
+      "ym": {
+        "change": 10,
+        "open": 33358,
+        "price": 33361,
+        "percent": 0.03
+      },
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050,
+        "change": 340
+      }
+    }
+  },
+  "GJNmUY9xWqcbYwmDQj9w": {
+    "stockData": {
+      "time": {
+        "dst_offset": 0,
+        "dst": false,
+        "dst_until": null,
+        "datetime": "2023-12-01T08:49:03.597906+08:00",
+        "day_of_year": 335,
+        "abbreviation": "CST",
+        "unixtime": 1701391743,
+        "raw_offset": 28800,
+        "day_of_week": 5,
+        "utc_datetime": "2023-12-01T00:49:03.597906+00:00",
+        "timezone": "Asia/Taipei",
+        "week_number": 48,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "client_ip": "34.81.87.242"
+      },
+      "ym": {
+        "open": 35986,
+        "price": 35950.89,
+        "percent": 1.47,
+        "change": 520.47
+      },
+      "tx_ym_gap": 2.0300000000000002,
+      "tx": {
+        "price": 17295,
+        "percent": -0.56,
+        "change": 98,
+        "open": 17197
+      }
+    }
+  },
+  "GdDGbpaFWWMKt0ut000G": {
+    "stockData": {
+      "ym": {
+        "change": 11,
+        "percent": 0.03,
+        "price": 33362,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.0100000000000002,
+      "time": {
+        "datetime": "2023-11-02T13:10:03.968896+08:00",
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "dst": false,
+        "utc_datetime": "2023-11-02T05:10:03.968896+00:00",
+        "raw_offset": 28800,
+        "unixtime": 1698901803,
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "week_number": 44,
+        "dst_from": null,
+        "abbreviation": "CST"
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.04,
+        "change": 328,
+        "price": 16378
+      }
+    }
+  },
+  "HYt8nOUs8uAZUhLOj2tD": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "ym": {
+        "percent": 0,
+        "price": 33351,
+        "open": 33358,
+        "change": 0
+      },
+      "time": {
+        "day_of_week": 4,
+        "unixtime": 1698906482,
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:28:02.807241+00:00",
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "week_number": 44,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst": false,
+        "datetime": "2023-11-02T14:28:02.807241+08:00",
+        "dst_offset": 0
+      },
+      "tx": {
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390,
+        "change": 340
+      }
+    }
+  },
+  "HhyfjxUY1mSW3bNWLdRr": {
+    "stockData": {
+      "time": {
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:48:03.286401+08:00",
+        "dst": false,
+        "unixtime": 1698907683,
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:48:03.286401+00:00",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "week_number": 44,
+        "timezone": "Asia/Taipei"
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33349,
+        "change": -2,
+        "percent": -0.01
+      },
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050
+      }
+    }
+  },
+  "HsU1QyXqREnMVKLBDGcY": {
+    "stockData": {
+      "tx_ym_gap": 2.11,
+      "time": {
+        "utc_datetime": "2023-12-01T00:47:02.931613+00:00",
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "client_ip": "34.81.87.242",
+        "week_number": 48,
+        "day_of_week": 5,
+        "datetime": "2023-12-01T08:47:02.931613+08:00",
+        "unixtime": 1701391622,
+        "abbreviation": "CST",
+        "dst_until": null,
+        "raw_offset": 28800,
+        "dst": false,
+        "dst_offset": 0,
+        "day_of_year": 335
+      },
+      "ym": {
+        "price": 35950.89,
+        "open": 35986,
+        "percent": 1.47,
+        "change": 520.47
+      },
+      "tx": {
+        "open": 17171,
+        "price": 17282,
+        "change": 111,
+        "percent": -0.64
+      }
+    }
+  },
+  "Hu0v4EBnZcfU5Ubo4pYC": {
+    "stockData": {
+      "ym": {
+        "percent": 0.02,
+        "change": 6,
+        "price": 33357,
+        "open": 33358
+      },
+      "tx": {
+        "change": 326,
+        "open": 16050,
+        "price": 16376,
+        "percent": 2.03
+      },
+      "tx_ym_gap": -2.01,
+      "time": {
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:08:03.892542+08:00",
+        "unixtime": 1698901683,
+        "week_number": 44,
+        "day_of_week": 4,
+        "dst": false,
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T05:08:03.892542+00:00",
+        "raw_offset": 28800
+      }
+    }
+  },
+  "IEPPbZHCbkEYB5BZJqr5": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "ym": {
+        "price": 33353,
+        "percent": 0.01,
+        "change": 2,
+        "open": 33358
+      },
+      "time": {
+        "day_of_year": 306,
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T07:00:03.596128+00:00",
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "week_number": 44,
+        "dst": false,
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "unixtime": 1698908403,
+        "datetime": "2023-11-02T15:00:03.596128+08:00",
+        "timezone": "Asia/Taipei"
+      }
+    }
+  },
+  "IVfIHzawB1A1kwVdU0aT": {
+    "stockData": {
+      "tx": {
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390,
+        "change": 340
+      },
+      "tx_ym_gap": -2.13,
+      "time": {
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "utc_datetime": "2023-11-02T06:35:03.247557+00:00",
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "dst_from": null,
+        "raw_offset": 28800,
+        "week_number": 44,
+        "dst_until": null,
+        "day_of_week": 4,
+        "unixtime": 1698906903,
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "datetime": "2023-11-02T14:35:03.247557+08:00"
+      },
+      "ym": {
+        "price": 33346,
+        "open": 33358,
+        "percent": -0.01,
+        "change": -5
+      }
+    }
+  },
+  "Jsg2vsQj5NtYrpehMlJz": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "change": 11,
+        "percent": 0.03,
+        "price": 33362
+      },
+      "tx": {
+        "open": 16050,
+        "change": 335,
+        "percent": 2.09,
+        "price": 16385
+      },
+      "tx_ym_gap": -2.06,
+      "time": {
+        "unixtime": 1698902283,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:18:03.386056+08:00",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T05:18:03.386056+00:00"
+      }
+    }
+  },
+  "L0YzNM6lOunicSi9eFn3": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "percent": 2.06,
+        "price": 16380,
+        "change": 330
+      },
+      "time": {
+        "dst": false,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T04:25:04.073911+00:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:25:04.073911+08:00",
+        "week_number": 44,
+        "unixtime": 1698899104,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei"
+      },
+      "ym": {
+        "change": 16,
+        "price": 33367,
+        "open": 33358,
+        "percent": 0.05
+      },
+      "tx_ym_gap": -2.0100000000000002
+    }
+  },
+  "MKVnXYDaMfeffTpt4plP": {
+    "stockData": {
+      "time": {
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T05:51:02.849057+00:00",
+        "dst": false,
+        "dst_from": null,
+        "datetime": "2023-11-02T13:51:02.849057+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "unixtime": 1698904262
+      },
+      "tx_ym_gap": -2.08,
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "ym": {
+        "open": 33358,
+        "change": 13,
+        "price": 33364,
+        "percent": 0.04
+      }
+    }
+  },
+  "NAUNDA6AAXrQKluBh1rE": {
+    "stockData": {
+      "time": {
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "day_of_year": 306,
+        "dst": false,
+        "utc_datetime": "2023-11-02T04:39:03.859570+00:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "unixtime": 1698899943,
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "dst_from": null,
+        "datetime": "2023-11-02T12:39:03.859570+08:00"
+      },
+      "tx_ym_gap": -2.04,
+      "ym": {
+        "price": 33367,
+        "percent": 0.05,
+        "open": 33358,
+        "change": 16
+      },
+      "tx": {
+        "change": 336,
+        "price": 16386,
+        "percent": 2.09,
+        "open": 16050
+      }
+    }
+  },
+  "NBB39v75igY8lNVjxDIA": {
+    "stockData": {
+      "ym": {
+        "price": 33370,
+        "open": 33358,
+        "percent": 0.06,
+        "change": 19
+      },
+      "time": {
+        "dst_from": null,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T11:52:04.124305+08:00",
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "day_of_year": 306,
+        "dst_offset": 0,
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T03:52:04.124305+00:00",
+        "unixtime": 1698897124,
+        "dst": false,
+        "dst_until": null,
+        "day_of_week": 4
+      },
+      "tx_ym_gap": -2.05,
+      "tx": {
+        "percent": 2.11,
+        "open": 16050,
+        "change": 339,
+        "price": 16389
+      }
+    }
+  },
+  "NGaJNMhGkglw06GbIBGU": {
+    "stockData": {
+      "time": {
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T06:11:03.638519+00:00",
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698905463,
+        "day_of_year": 306,
+        "dst_until": null,
+        "week_number": 44,
+        "dst": false,
+        "datetime": "2023-11-02T14:11:03.638519+08:00",
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "dst_from": null,
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.1,
+      "ym": {
+        "price": 33357,
+        "open": 33358,
+        "percent": 0.02,
+        "change": 6
+      },
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050,
+        "change": 340
+      }
+    }
+  },
+  "NMg8zyn7XTloyYDm2QMQ": {
+    "stockData": {
+      "tx_ym_gap": -2.02,
+      "time": {
+        "dst_offset": 0,
+        "datetime": "2023-11-02T12:38:04.149817+08:00",
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "dst_from": null,
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "dst": false,
+        "unixtime": 1698899884,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T04:38:04.149817+00:00"
+      },
+      "tx": {
+        "price": 16382,
+        "open": 16050,
+        "change": 332,
+        "percent": 2.07
+      },
+      "ym": {
+        "change": 17,
+        "percent": 0.05,
+        "price": 33368,
+        "open": 33358
+      }
+    }
+  },
+  "OVpYGBONekVye6xdBMqj": {
+    "stockData": {
+      "ym": {
+        "change": 11,
+        "open": 33358,
+        "price": 33362,
+        "percent": 0.03
+      },
+      "tx": {
+        "price": 16386,
+        "percent": 2.09,
+        "open": 16050,
+        "change": 336
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:42:02.588738+00:00",
+        "week_number": 44,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698903722,
+        "dst_from": null,
+        "dst_offset": 0,
+        "dst": false,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "day_of_year": 306,
+        "datetime": "2023-11-02T13:42:02.588738+08:00"
+      },
+      "tx_ym_gap": -2.06
+    }
+  },
+  "P1J7Wn1N9wSl7uyIYeKt": {
+    "stockData": {
+      "time": {
+        "utc_datetime": "2023-11-02T05:04:02.998532+00:00",
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "week_number": 44,
+        "unixtime": 1698901442,
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "dst": false,
+        "datetime": "2023-11-02T13:04:02.998532+08:00",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst_from": null
+      },
+      "ym": {
+        "price": 33357,
+        "open": 33358,
+        "percent": 0.02,
+        "change": 6
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.06,
+        "price": 16380,
+        "change": 330
+      },
+      "tx_ym_gap": -2.04
+    }
+  },
+  "PJxXKSrumfp3EdZcQktG": {
+    "stockData": {
+      "time": {
+        "dst_from": null,
+        "unixtime": 1698907982,
+        "datetime": "2023-11-02T14:53:02.557441+08:00",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:53:02.557441+00:00",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "week_number": 44,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst_until": null
+      },
+      "ym": {
+        "percent": 0,
+        "price": 33350,
+        "change": -1,
+        "open": 33358
+      },
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.12
+    }
+  },
+  "PXnjVkE9XDtJp54UPX4k": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "price": 33371,
+        "change": 20,
+        "percent": 0.06
+      },
+      "tx_ym_gap": -2.05,
+      "time": {
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "unixtime": 1698897183,
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T03:53:03.289997+00:00",
+        "dst_from": null,
+        "datetime": "2023-11-02T11:53:03.289997+08:00",
+        "day_of_week": 4,
+        "raw_offset": 28800,
+        "dst": false,
+        "dst_offset": 0
+      },
+      "tx": {
+        "percent": 2.11,
+        "change": 339,
+        "price": 16389,
+        "open": 16050
+      }
+    }
+  },
+  "PZ6ecDn9v2i6hBtpsngw": {
+    "stockData": {
+      "tx_ym_gap": -2.05,
+      "tx": {
+        "price": 16388,
+        "change": 338,
+        "percent": 2.11,
+        "open": 16050
+      },
+      "time": {
+        "unixtime": 1698897423,
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T11:57:03.311990+08:00",
+        "dst_until": null,
+        "day_of_year": 306,
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T03:57:03.311990+00:00",
+        "dst": false
+      },
+      "ym": {
+        "price": 33371,
+        "change": 20,
+        "open": 33358,
+        "percent": 0.06
+      }
+    }
+  },
+  "PrWJosouPrrbggwFUCqV": {
+    "stockData": {
+      "time": {
+        "week_number": 44,
+        "day_of_year": 306,
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:39:02.832605+00:00",
+        "day_of_week": 4,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T13:39:02.832605+08:00",
+        "unixtime": 1698903542,
+        "dst_from": null,
+        "raw_offset": 28800
+      },
+      "tx": {
+        "price": 16386,
+        "change": 336,
+        "percent": 2.09,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.06,
+      "ym": {
+        "change": 11,
+        "price": 33362,
+        "open": 33358,
+        "percent": 0.03
+      }
+    }
+  },
+  "Pxmd9sXl7h06BfFbRfji": {
+    "stockData": {
+      "ym": {
+        "change": 13,
+        "price": 33364,
+        "open": 33358,
+        "percent": 0.04
+      },
+      "tx": {
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390,
+        "change": 340
+      },
+      "time": {
+        "unixtime": 1698904023,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T05:47:03.055070+00:00",
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T13:47:03.055070+08:00",
+        "dst_offset": 0,
+        "week_number": 44,
+        "dst_until": null,
+        "raw_offset": 28800,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172"
+      },
+      "tx_ym_gap": -2.08
+    }
+  },
+  "Q3WwVwQpg67ZiyzeU6Om": {
+    "stockData": {
+      "time": {
+        "unixtime": 1698904743,
+        "dst_until": null,
+        "day_of_week": 4,
+        "week_number": 44,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:59:03.190914+00:00",
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:59:03.190914+08:00",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei"
+      },
+      "ym": {
+        "open": 33358,
+        "change": 13,
+        "price": 33364,
+        "percent": 0.04
+      },
+      "tx_ym_gap": -2.08,
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      }
+    }
+  },
+  "R7RnlbhWcTssV8uATeBH": {
+    "stockData": {
+      "time": {
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T04:01:02.503332+00:00",
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "dst": false,
+        "datetime": "2023-11-02T12:01:02.503332+08:00",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698897662,
+        "day_of_week": 4
+      },
+      "tx": {
+        "price": 16384,
+        "percent": 2.08,
+        "open": 16050,
+        "change": 334
+      },
+      "ym": {
+        "percent": 0.07,
+        "open": 33358,
+        "change": 22,
+        "price": 33373
+      },
+      "tx_ym_gap": -2.0100000000000002
+    }
+  },
+  "SC6VHeM5RnRYnV15sM2q": {
+    "stockData": {
+      "tx": {
+        "percent": 2.07,
+        "open": 16050,
+        "price": 16382,
+        "change": 332
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T04:46:02.708299+00:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "datetime": "2023-11-02T12:46:02.708299+08:00",
+        "unixtime": 1698900362,
+        "dst_from": null
+      },
+      "ym": {
+        "price": 33365,
+        "change": 14,
+        "open": 33358,
+        "percent": 0.04
+      },
+      "tx_ym_gap": -2.03
+    }
+  },
+  "SNqpzQhlWynMHMaJIKYK": {
+    "stockData": {
+      "time": {
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T05:17:03.206573+00:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "dst_offset": 0,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:17:03.206573+08:00",
+        "unixtime": 1698902223,
+        "week_number": 44,
+        "raw_offset": 28800,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.07,
+      "tx": {
+        "open": 16050,
+        "change": 336,
+        "price": 16386,
+        "percent": 2.09
+      },
+      "ym": {
+        "percent": 0.02,
+        "open": 33358,
+        "change": 8,
+        "price": 33359
+      }
+    }
+  },
+  "SQfnYVJztvTCUh64cQgG": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "change": 15,
+        "price": 33366,
+        "percent": 0.04
+      },
+      "time": {
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:24:03.404582+00:00",
+        "week_number": 44,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "datetime": "2023-11-02T13:24:03.404582+08:00",
+        "day_of_year": 306,
+        "unixtime": 1698902643
+      },
+      "tx": {
+        "percent": 2.07,
+        "open": 16050,
+        "change": 333,
+        "price": 16383
+      },
+      "tx_ym_gap": -2.03
+    }
+  },
+  "SSTuVsluEshKpL6f0Uj0": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "change": 338,
+        "price": 16388,
+        "percent": 2.11
+      },
+      "tx_ym_gap": -2.05,
+      "ym": {
+        "change": 19,
+        "open": 33358,
+        "percent": 0.06,
+        "price": 33370
+      },
+      "time": {
+        "datetime": "2023-11-02T11:56:04.996294+08:00",
+        "unixtime": 1698897364,
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "dst_from": null,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T03:56:04.996294+00:00",
+        "dst": false
+      }
+    }
+  },
+  "SUTCwvflk4MozPzapS1q": {
+    "stockData": {
+      "tx_ym_gap": 2.04,
+      "ym": {
+        "open": 35986,
+        "change": 520.47,
+        "percent": 1.47,
+        "price": 35950.89
+      },
+      "tx": {
+        "change": 99,
+        "open": 17195,
+        "price": 17294,
+        "percent": -0.57
+      },
+      "time": {
+        "day_of_week": 5,
+        "datetime": "2023-12-01T08:50:03.613025+08:00",
+        "abbreviation": "CST",
+        "dst": false,
+        "day_of_year": 335,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "utc_datetime": "2023-12-01T00:50:03.613025+00:00",
+        "utc_offset": "+08:00",
+        "unixtime": 1701391803,
+        "client_ip": "34.81.87.242",
+        "week_number": 48,
+        "dst_from": null,
+        "dst_offset": 0
+      }
+    }
+  },
+  "T8yxxYK9uHXuIRV0ezzy": {
+    "stockData": {
+      "tx_ym_gap": -2.04,
+      "tx": {
+        "percent": 2.07,
+        "price": 16382,
+        "change": 332,
+        "open": 16050
+      },
+      "ym": {
+        "percent": 0.03,
+        "change": 9,
+        "open": 33358,
+        "price": 33360
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "dst_from": null,
+        "datetime": "2023-11-02T13:13:03.870848+08:00",
+        "week_number": 44,
+        "abbreviation": "CST",
+        "dst_until": null,
+        "dst_offset": 0,
+        "unixtime": 1698901983,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T05:13:03.870848+00:00",
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "utc_offset": "+08:00",
+        "day_of_year": 306
+      }
+    }
+  },
+  "TdlBjnhLI4oarGIJqMZB": {
+    "stockData": {
+      "ym": {
+        "price": 33357,
+        "change": 6,
+        "open": 33358,
+        "percent": 0.02
+      },
+      "tx_ym_gap": -2.02,
+      "time": {
+        "dst_until": null,
+        "datetime": "2023-11-02T13:09:03.954288+08:00",
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698901743,
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:09:03.954288+00:00",
+        "dst": false,
+        "day_of_year": 306,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "utc_offset": "+08:00"
+      },
+      "tx": {
+        "change": 328,
+        "price": 16378,
+        "open": 16050,
+        "percent": 2.04
+      }
+    }
+  },
+  "Tw1VxoZNB78TjLwUbjz9": {
+    "stockData": {
+      "tx_ym_gap": -2.13,
+      "ym": {
+        "price": 33348,
+        "percent": -0.01,
+        "open": 33358,
+        "change": -3
+      },
+      "time": {
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:15:02.652943+00:00",
+        "dst_until": null,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "week_number": 44,
+        "datetime": "2023-11-02T14:15:02.652943+08:00",
+        "unixtime": 1698905702,
+        "day_of_year": 306
+      },
+      "tx": {
+        "price": 16390,
+        "change": 340,
+        "open": 16050,
+        "percent": 2.12
+      }
+    }
+  },
+  "UR0h7uO7YSbgdGvj4WoE": {
+    "stockData": {
+      "time": {
+        "utc_datetime": "2023-11-02T05:27:02.602435+00:00",
+        "dst_from": null,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698902822,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:27:02.602435+08:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false,
+        "week_number": 44,
+        "raw_offset": 28800
+      },
+      "tx_ym_gap": -2.07,
+      "ym": {
+        "open": 33358,
+        "change": 12,
+        "price": 33363,
+        "percent": 0.04
+      },
+      "tx": {
+        "change": 338,
+        "price": 16388,
+        "open": 16050,
+        "percent": 2.11
+      }
+    }
+  },
+  "UsL7EmzMA9RJs0nQoaF5": {
+    "stockData": {
+      "ym": {
+        "change": -1,
+        "price": 33350,
+        "percent": 0,
+        "open": 33358
+      },
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.12,
+      "time": {
+        "dst": false,
+        "raw_offset": 28800,
+        "unixtime": 1698906242,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:24:02.944018+08:00",
+        "utc_datetime": "2023-11-02T06:24:02.944018+00:00",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "week_number": 44,
+        "dst_until": null,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "day_of_year": 306
+      }
+    }
+  },
+  "Uym4WKGpKelCNzUUKtiZ": {
+    "stockData": {
+      "ym": {
+        "change": -3,
+        "percent": -0.01,
+        "open": 33358,
+        "price": 33348
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390
+      },
+      "time": {
+        "week_number": 44,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698906963,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:36:03.102198+00:00",
+        "dst_from": null,
+        "dst": false,
+        "dst_until": null,
+        "datetime": "2023-11-02T14:36:03.102198+08:00",
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "raw_offset": 28800
+      },
+      "tx_ym_gap": -2.13
+    }
+  },
+  "Vp3iS14jzQ7gTWE5MSTg": {
+    "stockData": {
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "datetime": "2023-11-02T14:54:02.395030+08:00",
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:54:02.395030+00:00",
+        "dst_from": null,
+        "unixtime": 1698908042,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "week_number": 44
+      },
+      "ym": {
+        "percent": 0.01,
+        "open": 33358,
+        "price": 33356,
+        "change": 5
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390
+      }
+    }
+  },
+  "VuavjHiYCKPueCkLSES4": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "time": {
+        "abbreviation": "CST",
+        "unixtime": 1698906842,
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false,
+        "utc_datetime": "2023-11-02T06:34:02.925706+00:00",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:34:02.925706+08:00",
+        "dst_from": null,
+        "week_number": 44
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "ym": {
+        "price": 33350,
+        "change": -1,
+        "percent": 0,
+        "open": 33358
+      }
+    }
+  },
+  "XAgO5512aS3NAxx7slg7": {
+    "stockData": {
+      "tx": {
+        "change": 340,
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.13,
+      "ym": {
+        "percent": -0.01,
+        "change": -2,
+        "open": 33358,
+        "price": 33349
+      },
+      "time": {
+        "dst_from": null,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst": false,
+        "unixtime": 1698907323,
+        "datetime": "2023-11-02T14:42:03.128010+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:42:03.128010+00:00"
+      }
+    }
+  },
+  "Xr9gQgP44GPDeexV4MwL": {
+    "stockData": {
+      "tx": {
+        "price": 16384,
+        "change": 334,
+        "percent": 2.08,
+        "open": 16050
+      },
+      "time": {
+        "dst": false,
+        "abbreviation": "CST",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T03:49:04.174266+00:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "day_of_year": 306,
+        "week_number": 44,
+        "day_of_week": 4,
+        "unixtime": 1698896944,
+        "datetime": "2023-11-02T11:49:04.174266+08:00"
+      },
+      "ym": {
+        "price": 33369,
+        "open": 33358,
+        "percent": 0.05,
+        "change": 18
+      },
+      "tx_ym_gap": -2.0300000000000002
+    }
+  },
+  "YA1Ge8SO4fRYMuqADl6B": {
+    "stockData": {
+      "time": {
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "unixtime": 1698899523,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T04:32:03.981457+00:00",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "week_number": 44,
+        "datetime": "2023-11-02T12:32:03.981457+08:00"
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16382,
+        "percent": 2.07,
+        "change": 332
+      },
+      "ym": {
+        "percent": 0.05,
+        "change": 18,
+        "price": 33369,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "YKV416HJOepWZotFegCZ": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "dst": false,
+        "week_number": 44,
+        "day_of_year": 306,
+        "dst_offset": 0,
+        "utc_datetime": "2023-11-02T06:29:03.928128+00:00",
+        "abbreviation": "CST",
+        "unixtime": 1698906543,
+        "datetime": "2023-11-02T14:29:03.928128+08:00",
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172"
+      },
+      "ym": {
+        "open": 33358,
+        "change": -1,
+        "percent": 0,
+        "price": 33350
+      }
+    }
+  },
+  "YvXJxwSs3ZZ0PLGjFfVd": {
+    "stockData": {
+      "tx": {
+        "percent": 2.11,
+        "change": 338,
+        "open": 16050,
+        "price": 16388
+      },
+      "tx_ym_gap": -2.08,
+      "ym": {
+        "change": 10,
+        "percent": 0.03,
+        "open": 33358,
+        "price": 33361
+      },
+      "time": {
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "day_of_year": 306,
+        "unixtime": 1698903842,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T13:44:02.930402+08:00",
+        "dst_until": null,
+        "dst": false,
+        "utc_datetime": "2023-11-02T05:44:02.930402+00:00",
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172"
+      }
+    }
+  },
+  "ZOkgICriKthdetAKwVaR": {
+    "stockData": {
+      "tx_ym_gap": -2.1,
+      "time": {
+        "day_of_year": 306,
+        "week_number": 44,
+        "dst_from": null,
+        "dst": false,
+        "dst_until": null,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "unixtime": 1698905343,
+        "utc_datetime": "2023-11-02T06:09:03.555192+00:00",
+        "datetime": "2023-11-02T14:09:03.555192+08:00",
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei"
+      },
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "ym": {
+        "change": 7,
+        "percent": 0.02,
+        "price": 33358,
+        "open": 33358
+      }
+    }
+  },
+  "Zwo0nbXz7StyD6rPP8fj": {
+    "stockData": {
+      "tx_ym_gap": -2.0900000000000003,
+      "ym": {
+        "open": 33358,
+        "change": 5,
+        "price": 33356,
+        "percent": 0.01
+      },
+      "time": {
+        "dst_offset": 0,
+        "dst": false,
+        "utc_datetime": "2023-11-02T05:16:03.298195+00:00",
+        "dst_from": null,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "datetime": "2023-11-02T13:16:03.298195+08:00",
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698902163,
+        "utc_offset": "+08:00"
+      },
+      "tx": {
+        "change": 337,
+        "percent": 2.1,
+        "open": 16050,
+        "price": 16387
+      }
+    }
+  },
+  "alfytDo6qoCmV7cDT4mD": {
+    "stockData": {
+      "ym": {
+        "percent": 0.03,
+        "price": 33362,
+        "change": 11,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.06,
+      "time": {
+        "abbreviation": "CST",
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "day_of_week": 4,
+        "dst_until": null,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "dst_from": null,
+        "unixtime": 1698902404,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T13:20:04.064571+08:00",
+        "utc_datetime": "2023-11-02T05:20:04.064571+00:00",
+        "dst_offset": 0
+      },
+      "tx": {
+        "price": 16386,
+        "change": 336,
+        "open": 16050,
+        "percent": 2.09
+      }
+    }
+  },
+  "am0zb8J8yVqj0rBplRSy": {
+    "stockData": {
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "ym": {
+        "price": 33352,
+        "change": 1,
+        "percent": 0,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.12,
+      "time": {
+        "day_of_week": 4,
+        "dst_from": null,
+        "datetime": "2023-11-02T14:20:02.663545+08:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698906002,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:20:02.663545+00:00",
+        "week_number": 44,
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800
+      }
+    }
+  },
+  "bSZ5R6eB9XkBbjfwThpK": {
+    "stockData": {
+      "tx_ym_gap": -2.01,
+      "time": {
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:06:03.775632+08:00",
+        "dst": false,
+        "dst_until": null,
+        "dst_from": null,
+        "day_of_week": 4,
+        "unixtime": 1698901563,
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:06:03.775632+00:00",
+        "raw_offset": 28800,
+        "day_of_year": 306
+      },
+      "tx": {
+        "percent": 2.03,
+        "price": 16376,
+        "change": 326,
+        "open": 16050
+      },
+      "ym": {
+        "percent": 0.02,
+        "change": 7,
+        "price": 33358,
+        "open": 33358
+      }
+    }
+  },
+  "c1vicWAHECmqFUaXZgnX": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "percent": 2.06,
+        "price": 16380,
+        "change": 330
+      },
+      "ym": {
+        "percent": 0.04,
+        "price": 33365,
+        "change": 14,
+        "open": 33358
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "dst_from": null,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T04:21:03.794193+00:00",
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:21:03.794193+08:00",
+        "raw_offset": 28800,
+        "unixtime": 1698898863,
+        "dst_offset": 0,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00"
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "cN68YRF5ITnPObArokAE": {
+    "stockData": {
+      "tx_ym_gap": -2.01,
+      "ym": {
+        "change": 19,
+        "open": 33358,
+        "price": 33370,
+        "percent": 0.06
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698899703,
+        "datetime": "2023-11-02T12:35:03.272306+08:00",
+        "utc_datetime": "2023-11-02T04:35:03.272306+00:00",
+        "dst_offset": 0,
+        "dst": false,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "dst_until": null,
+        "week_number": 44,
+        "day_of_week": 4,
+        "day_of_year": 306
+      },
+      "tx": {
+        "change": 333,
+        "price": 16383,
+        "open": 16050,
+        "percent": 2.07
+      }
+    }
+  },
+  "coVwTw0ZbEQl0hLEyzR6": {
+    "stockData": {
+      "ym": {
+        "percent": 0.03,
+        "open": 33358,
+        "change": 9,
+        "price": 33360
+      },
+      "time": {
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T13:57:03.655355+08:00",
+        "dst": false,
+        "unixtime": 1698904623,
+        "day_of_week": 4,
+        "dst_from": null,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T05:57:03.655355+00:00",
+        "dst_offset": 0
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.0900000000000003
+    }
+  },
+  "dbgvQZmysF0GV40uXtNQ": {
+    "stockData": {
+      "ym": {
+        "change": 16,
+        "open": 33358,
+        "percent": 0.05,
+        "price": 33367
+      },
+      "tx": {
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050
+      },
+      "time": {
+        "dst_from": null,
+        "datetime": "2023-11-02T13:48:02.859073+08:00",
+        "raw_offset": 28800,
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "unixtime": 1698904082,
+        "utc_datetime": "2023-11-02T05:48:02.859073+00:00",
+        "week_number": 44,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.0700000000000003
+    }
+  },
+  "dhJ3X1hdWY7Ez1HHAQaW": {
+    "stockData": {
+      "time": {
+        "abbreviation": "CST",
+        "dst_offset": 0,
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T14:56:02.455435+08:00",
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4,
+        "unixtime": 1698908162,
+        "dst": false,
+        "day_of_year": 306,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:56:02.455435+00:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172"
+      },
+      "ym": {
+        "open": 33358,
+        "change": 1,
+        "price": 33352,
+        "percent": 0
+      },
+      "tx_ym_gap": -2.12,
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050
+      }
+    }
+  },
+  "dzERef1uBfzA1ep0Km25": {
+    "stockData": {
+      "ym": {
+        "change": 15,
+        "price": 33366,
+        "percent": 0.04,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.01,
+      "tx": {
+        "percent": 2.05,
+        "open": 16050,
+        "change": 329,
+        "price": 16379
+      },
+      "time": {
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "dst_until": null,
+        "datetime": "2023-11-02T12:41:03.419842+08:00",
+        "week_number": 44,
+        "unixtime": 1698900063,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "dst": false,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T04:41:03.419842+00:00",
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4
+      }
+    }
+  },
+  "e35aDjAAwwPnhbFWGGjq": {
+    "stockData": {
+      "ym": {
+        "percent": 0.04,
+        "price": 33366,
+        "open": 33358,
+        "change": 15
+      },
+      "tx_ym_gap": -2.01,
+      "time": {
+        "dst_offset": 0,
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T04:24:04.005939+00:00",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:24:04.005939+08:00",
+        "unixtime": 1698899044,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "day_of_week": 4
+      },
+      "tx": {
+        "change": 329,
+        "price": 16379,
+        "percent": 2.05,
+        "open": 16050
+      }
+    }
+  },
+  "f9QAq2fqSBrLJr0mmvi5": {
+    "stockData": {
+      "time": {
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "unixtime": 1698901383,
+        "day_of_week": 4,
+        "dst_from": null,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "dst": false,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T05:03:03.210106+00:00",
+        "dst_until": null,
+        "datetime": "2023-11-02T13:03:03.210106+08:00",
+        "abbreviation": "CST",
+        "week_number": 44,
+        "client_ip": "35.185.153.172"
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16380,
+        "percent": 2.06,
+        "change": 330
+      },
+      "ym": {
+        "price": 33359,
+        "open": 33358,
+        "change": 8,
+        "percent": 0.02
+      },
+      "tx_ym_gap": -2.04
+    }
+  },
+  "fUSleZ3B26OPXwcMHqlh": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "price": 33363,
+        "percent": 0.04,
+        "change": 12
+      },
+      "tx": {
+        "price": 16384,
+        "change": 334,
+        "percent": 2.08,
+        "open": 16050
+      },
+      "time": {
+        "utc_datetime": "2023-11-02T05:43:02.801307+00:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "week_number": 44,
+        "datetime": "2023-11-02T13:43:02.801307+08:00",
+        "unixtime": 1698903782,
+        "dst": false,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "client_ip": "35.185.153.172"
+      },
+      "tx_ym_gap": -2.04
+    }
+  },
+  "gT5uPiG3cCdZMWzq2sgY": {
+    "stockData": {
+      "time": {
+        "utc_datetime": "2023-11-02T06:19:03.661545+00:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T14:19:03.661545+08:00",
+        "day_of_year": 306,
+        "week_number": 44,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "unixtime": 1698905943,
+        "dst_from": null,
+        "raw_offset": 28800,
+        "dst": false,
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172"
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "ym": {
+        "change": 3,
+        "percent": 0.01,
+        "price": 33354,
+        "open": 33358
+      }
+    }
+  },
+  "h14YsAKuRp4ew9dXoiEZ": {
+    "stockData": {
+      "ym": {
+        "price": 33373,
+        "change": 22,
+        "percent": 0.07,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.0100000000000002,
+      "tx": {
+        "price": 16384,
+        "open": 16050,
+        "change": 334,
+        "percent": 2.08
+      },
+      "time": {
+        "dst_until": null,
+        "week_number": 44,
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "dst": false,
+        "datetime": "2023-11-02T12:00:02.629830+08:00",
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T04:00:02.629830+00:00",
+        "unixtime": 1698897602
+      }
+    }
+  },
+  "hcSQDaLLcTqrCuT092eh": {
+    "stockData": {
+      "time": {
+        "utc_datetime": "2023-11-02T06:17:02.778643+00:00",
+        "datetime": "2023-11-02T14:17:02.778643+08:00",
+        "dst_until": null,
+        "dst_offset": 0,
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "abbreviation": "CST",
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698905822,
+        "day_of_week": 4,
+        "raw_offset": 28800,
+        "day_of_year": 306
+      },
+      "tx": {
+        "change": 340,
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "ym": {
+        "open": 33358,
+        "change": 0,
+        "percent": 0,
+        "price": 33351
+      },
+      "tx_ym_gap": -2.12
+    }
+  },
+  "hiqXI8J1kEvIiPsLslI3": {
+    "stockData": {
+      "time": {
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "abbreviation": "CST",
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698906302,
+        "dst_offset": 0,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "week_number": 44,
+        "dst": false,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:25:02.900302+00:00",
+        "datetime": "2023-11-02T14:25:02.900302+08:00"
+      },
+      "tx_ym_gap": -2.12,
+      "ym": {
+        "change": -1,
+        "open": 33358,
+        "percent": 0,
+        "price": 33350
+      },
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      }
+    }
+  },
+  "i5dRHsnoLt6U7zDQNOEP": {
+    "stockData": {
+      "time": {
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "dst_until": null,
+        "dst": false,
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:40:02.822248+08:00",
+        "day_of_year": 306,
+        "week_number": 44,
+        "unixtime": 1698903602,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:40:02.822248+00:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST"
+      },
+      "tx": {
+        "percent": 2.08,
+        "price": 16384,
+        "change": 334,
+        "open": 16050
+      },
+      "ym": {
+        "percent": 0.04,
+        "open": 33358,
+        "price": 33363,
+        "change": 12
+      },
+      "tx_ym_gap": -2.04
+    }
+  },
+  "i9UfYOu9pGc1dglzsRwa": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "percent": 0.01,
+        "change": 5,
+        "price": 33356
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "tx": {
+        "price": 16390,
+        "open": 16050,
+        "change": 340,
+        "percent": 2.12
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698905103,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:05:03.477149+00:00",
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T14:05:03.477149+08:00",
+        "dst_until": null,
+        "dst": false
+      }
+    }
+  },
+  "iTDlUtuXtDw9mf2IsXQ4": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "change": 333,
+        "price": 16383,
+        "percent": 2.07
+      },
+      "time": {
+        "dst_until": null,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "dst": false,
+        "dst_from": null,
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T04:36:03.373579+00:00",
+        "datetime": "2023-11-02T12:36:03.373579+08:00",
+        "abbreviation": "CST",
+        "unixtime": 1698899763
+      },
+      "ym": {
+        "price": 33368,
+        "percent": 0.05,
+        "change": 17,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "iVFXAByVVKBaleT2vThN": {
+    "stockData": {
+      "ym": {
+        "percent": 0.01,
+        "price": 33356,
+        "change": 5,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "dst_from": null,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:06:03.474089+08:00",
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698905163,
+        "utc_datetime": "2023-11-02T06:06:03.474089+00:00",
+        "day_of_week": 4,
+        "dst_until": null,
+        "raw_offset": 28800,
+        "dst": false,
+        "day_of_year": 306,
+        "week_number": 44,
+        "abbreviation": "CST",
+        "utc_offset": "+08:00"
+      },
+      "tx": {
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12,
+        "change": 340
+      }
+    }
+  },
+  "ibvvwkjqXcUa2gaZZyCd": {
+    "stockData": {
+      "ym": {
+        "change": 23,
+        "open": 33358,
+        "price": 33374,
+        "percent": 0.07
+      },
+      "time": {
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "unixtime": 1698897542,
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "datetime": "2023-11-02T11:59:02.396997+08:00",
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T03:59:02.396997+00:00"
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16385,
+        "change": 335,
+        "percent": 2.09
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "jHaLVK6n3Gc31qf3ZW16": {
+    "stockData": {
+      "tx_ym_gap": -2.13,
+      "ym": {
+        "percent": -0.01,
+        "change": -2,
+        "open": 33358,
+        "price": 33349
+      },
+      "tx": {
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050,
+        "change": 340
+      },
+      "time": {
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T06:41:03.237322+00:00",
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "dst_offset": 0,
+        "dst_from": null,
+        "week_number": 44,
+        "abbreviation": "CST",
+        "dst": false,
+        "unixtime": 1698907263,
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:41:03.237322+08:00"
+      }
+    }
+  },
+  "jiltl4dIThY9vTo1S2C3": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "change": -2,
+        "percent": -0.01,
+        "price": 33349
+      },
+      "time": {
+        "utc_datetime": "2023-11-02T06:40:03.080937+00:00",
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698907203,
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "dst_from": null,
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:40:03.080937+08:00"
+      },
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "price": 16390,
+        "change": 340
+      }
+    }
+  },
+  "jr0TeqjZYbM7gtnKXAyJ": {
+    "stockData": {
+      "tx": {
+        "percent": 2.06,
+        "change": 330,
+        "price": 16380,
+        "open": 16050
+      },
+      "time": {
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "week_number": 44,
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T05:23:03.348681+00:00",
+        "abbreviation": "CST",
+        "unixtime": 1698902583,
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "dst": false,
+        "datetime": "2023-11-02T13:23:03.348681+08:00",
+        "dst_from": null
+      },
+      "tx_ym_gap": -2.0100000000000002,
+      "ym": {
+        "percent": 0.05,
+        "change": 16,
+        "open": 33358,
+        "price": 33367
+      }
+    }
+  },
+  "kIZh3fQE37aX4aWCYM47": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "ym": {
+        "price": 33350,
+        "percent": 0,
+        "open": 33358,
+        "change": -1
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      },
+      "time": {
+        "week_number": 44,
+        "unixtime": 1698907922,
+        "raw_offset": 28800,
+        "dst_until": null,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:52:02.488064+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:52:02.488064+00:00",
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "dst": false,
+        "dst_offset": 0
+      }
+    }
+  },
+  "kQNO1wsLFTTiVf2l5r1g": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "ym": {
+        "change": 3,
+        "price": 33354,
+        "percent": 0.01,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "day_of_week": 4,
+        "dst": false,
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698908282,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T14:58:02.574093+08:00",
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T06:58:02.574093+00:00",
+        "abbreviation": "CST"
+      }
+    }
+  },
+  "kY1UK7TWiUwo0PZfz5Iz": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "percent": 0.03,
+        "price": 33362,
+        "change": 11
+      },
+      "tx_ym_gap": -2.0900000000000003,
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      },
+      "time": {
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T05:58:03.933495+00:00",
+        "datetime": "2023-11-02T13:58:03.933495+08:00",
+        "unixtime": 1698904683,
+        "dst_until": null,
+        "dst": false,
+        "day_of_week": 4
+      }
+    }
+  },
+  "l8hDb2y5eosPrHtMbFWp": {
+    "stockData": {
+      "time": {
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "day_of_year": 306,
+        "datetime": "2023-11-02T13:15:03.398315+08:00",
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "dst_offset": 0,
+        "dst": false,
+        "unixtime": 1698902103,
+        "day_of_week": 4,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:15:03.398315+00:00",
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.04,
+      "tx": {
+        "price": 16383,
+        "percent": 2.07,
+        "change": 333,
+        "open": 16050
+      },
+      "ym": {
+        "open": 33358,
+        "percent": 0.03,
+        "price": 33360,
+        "change": 9
+      }
+    }
+  },
+  "livsL5iZM29X5KRLovWe": {
+    "stockData": {
+      "ym": {
+        "price": 33365,
+        "percent": 0.04,
+        "open": 33358,
+        "change": 14
+      },
+      "tx_ym_gap": -2.02,
+      "time": {
+        "dst_from": null,
+        "dst": false,
+        "week_number": 44,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:45:02.590299+08:00",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T04:45:02.590299+00:00",
+        "day_of_year": 306,
+        "unixtime": 1698900302
+      },
+      "tx": {
+        "percent": 2.06,
+        "change": 330,
+        "open": 16050,
+        "price": 16380
+      }
+    }
+  },
+  "mHQOqV70Ow7wJUMcZiil": {
+    "stockData": {
+      "tx_ym_gap": -2.08,
+      "ym": {
+        "percent": 0.04,
+        "open": 33358,
+        "change": 12,
+        "price": 33363
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:53:03.238150+08:00",
+        "abbreviation": "CST",
+        "week_number": 44,
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698904383,
+        "day_of_year": 306,
+        "dst": false,
+        "utc_datetime": "2023-11-02T05:53:03.238150+00:00",
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "dst_until": null
+      },
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "change": 340,
+        "open": 16050
+      }
+    }
+  },
+  "mYG5TdHqjgIr26Ay1HzB": {
+    "stockData": {
+      "time": {
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst": false,
+        "dst_from": null,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "dst_offset": 0,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T14:50:04.662025+08:00",
+        "unixtime": 1698907804,
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:50:04.662025+00:00"
+      },
+      "tx_ym_gap": -2.12,
+      "ym": {
+        "open": 33358,
+        "change": -1,
+        "price": 33350,
+        "percent": 0
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050
+      }
+    }
+  },
+  "mmu8qGhsal24rwqxJ5bM": {
+    "stockData": {
+      "tx": {
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050,
+        "change": 340
+      },
+      "tx_ym_gap": -2.08,
+      "ym": {
+        "percent": 0.04,
+        "change": 13,
+        "open": 33358,
+        "price": 33364
+      },
+      "time": {
+        "raw_offset": 28800,
+        "dst_until": null,
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T05:54:03.032074+00:00",
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "dst": false,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T13:54:03.032074+08:00",
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698904443,
+        "dst_from": null,
+        "client_ip": "35.185.153.172"
+      }
+    }
+  },
+  "n0F5g5864SBedqJ5WjmW": {
+    "stockData": {
+      "time": {
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "unixtime": 1698907743,
+        "datetime": "2023-11-02T14:49:03.345060+08:00",
+        "dst_from": null,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "week_number": 44,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T06:49:03.345060+00:00"
+      },
+      "ym": {
+        "open": 33358,
+        "change": -3,
+        "percent": -0.01,
+        "price": 33348
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.13
+    }
+  },
+  "n2clDJhHMNhs4krMQ9xH": {
+    "stockData": {
+      "ym": {
+        "change": 3,
+        "percent": 0.01,
+        "price": 33354,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "time": {
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "dst_until": null,
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:16:03.520534+00:00",
+        "dst_from": null,
+        "datetime": "2023-11-02T14:16:03.520534+08:00",
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "dst": false,
+        "unixtime": 1698905763,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "day_of_year": 306
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      }
+    }
+  },
+  "nSHsCqVmWFDjin0loFrk": {
+    "stockData": {
+      "tx_ym_gap": -2.1100000000000003,
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "change": 340,
+        "percent": 2.12
+      },
+      "time": {
+        "utc_datetime": "2023-11-02T06:07:03.331063+00:00",
+        "datetime": "2023-11-02T14:07:03.331063+08:00",
+        "dst_until": null,
+        "unixtime": 1698905223,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "week_number": 44,
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "dst_offset": 0
+      },
+      "ym": {
+        "price": 33356,
+        "change": 5,
+        "open": 33358,
+        "percent": 0.01
+      }
+    }
+  },
+  "oHMfCcZV8DwtoKxCR6WV": {
+    "stockData": {
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12,
+        "open": 16050
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:45:03.349832+00:00",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "unixtime": 1698907503,
+        "dst": false,
+        "week_number": 44,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "dst_from": null,
+        "datetime": "2023-11-02T14:45:03.349832+08:00"
+      },
+      "ym": {
+        "change": -2,
+        "price": 33349,
+        "open": 33358,
+        "percent": -0.01
+      }
+    }
+  },
+  "oPqtdPaG0KO5rM4aNZbP": {
+    "stockData": {
+      "time": {
+        "raw_offset": 28800,
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:30:02.887326+08:00",
+        "unixtime": 1698906602,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "week_number": 44,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:30:02.887326+00:00",
+        "dst": false,
+        "timezone": "Asia/Taipei"
+      },
+      "ym": {
+        "price": 33348,
+        "percent": -0.01,
+        "change": -3,
+        "open": 33358
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390
+      },
+      "tx_ym_gap": -2.13
+    }
+  },
+  "omwFKQ1JXPF78D8AadKF": {
+    "stockData": {
+      "ym": {
+        "change": 14,
+        "price": 33365,
+        "open": 33358,
+        "percent": 0.04
+      },
+      "tx_ym_gap": -2.02,
+      "tx": {
+        "open": 16050,
+        "percent": 2.06,
+        "change": 331,
+        "price": 16381
+      },
+      "time": {
+        "dst_from": null,
+        "client_ip": "35.185.153.172",
+        "dst_offset": 0,
+        "unixtime": 1698902523,
+        "dst_until": null,
+        "week_number": 44,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "day_of_year": 306,
+        "datetime": "2023-11-02T13:22:03.523022+08:00",
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T05:22:03.523022+00:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST"
+      }
+    }
+  },
+  "oqAVkI3xshl7PvGKGGUD": {
+    "stockData": {
+      "time": {
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:23:02.700368+00:00",
+        "day_of_week": 4,
+        "dst_until": null,
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698906182,
+        "datetime": "2023-11-02T14:23:02.700368+08:00",
+        "abbreviation": "CST",
+        "dst_from": null
+      },
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.13,
+      "ym": {
+        "price": 33349,
+        "change": -2,
+        "open": 33358,
+        "percent": -0.01
+      }
+    }
+  },
+  "osHgumEXP7NT7xxLx37J": {
+    "stockData": {
+      "ym": {
+        "price": 33357,
+        "open": 33358,
+        "change": 6,
+        "percent": 0.02
+      },
+      "time": {
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst_until": null,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T14:04:03.923457+08:00",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "unixtime": 1698905043,
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T06:04:03.923457+00:00",
+        "dst_from": null
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "tx_ym_gap": -2.1
+    }
+  },
+  "p6UCF1AMkfrH9r5otjDx": {
+    "stockData": {
+      "tx": {
+        "change": 347,
+        "open": 16050,
+        "percent": 2.16,
+        "price": 16397
+      },
+      "ym": {
+        "price": 33362,
+        "percent": 0.03,
+        "open": 33358,
+        "change": 11
+      },
+      "tx_ym_gap": -2.1300000000000003,
+      "time": {
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "dst": false,
+        "unixtime": 1698903062,
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T05:31:02.764373+00:00",
+        "datetime": "2023-11-02T13:31:02.764373+08:00",
+        "week_number": 44
+      }
+    }
+  },
+  "pHLAWoq9tONGP2KoVP1h": {
+    "stockData": {
+      "time": {
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "unixtime": 1698907383,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst": false,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T14:43:03.283819+08:00",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:43:03.283819+00:00",
+        "dst_until": null
+      },
+      "ym": {
+        "open": 33358,
+        "change": -1,
+        "percent": 0,
+        "price": 33350
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "tx_ym_gap": -2.12
+    }
+  },
+  "pKTppmrn9Y08HQVVVpUH": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340
+      },
+      "tx_ym_gap": -2.14,
+      "time": {
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "datetime": "2023-11-02T14:22:02.800018+08:00",
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T06:22:02.800018+00:00",
+        "abbreviation": "CST",
+        "dst_until": null,
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "unixtime": 1698906122,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "week_number": 44
+      },
+      "ym": {
+        "change": -8,
+        "open": 33358,
+        "price": 33343,
+        "percent": -0.02
+      }
+    }
+  },
+  "pVjZ2f30HCHqLNyidxMl": {
+    "stockData": {
+      "tx": {
+        "price": 16390,
+        "percent": 2.12,
+        "change": 340,
+        "open": 16050
+      },
+      "time": {
+        "unixtime": 1698904984,
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:03:04.804358+00:00",
+        "dst_from": null,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T14:03:04.804358+08:00",
+        "abbreviation": "CST",
+        "dst": false,
+        "week_number": 44,
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei"
+      },
+      "tx_ym_gap": -2.0900000000000003,
+      "ym": {
+        "price": 33360,
+        "percent": 0.03,
+        "open": 33358,
+        "change": 9
+      }
+    }
+  },
+  "pbaMkRZw1I6LHFMICvTf": {
+    "stockData": {
+      "ym": {
+        "percent": 0.03,
+        "price": 33362,
+        "open": 33358,
+        "change": 11
+      },
+      "tx": {
+        "percent": 2.13,
+        "open": 16050,
+        "price": 16392,
+        "change": 342
+      },
+      "tx_ym_gap": -2.1,
+      "time": {
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T13:29:02.660399+08:00",
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T05:29:02.660399+00:00",
+        "unixtime": 1698902942,
+        "dst_from": null,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "dst": false,
+        "week_number": 44
+      }
+    }
+  },
+  "qUd0ESk0KRKewsadNWMt": {
+    "stockData": {
+      "tx_ym_gap": -2.0900000000000003,
+      "time": {
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "datetime": "2023-11-02T13:28:02.482449+08:00",
+        "unixtime": 1698902882,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T05:28:02.482449+00:00",
+        "dst": false,
+        "dst_offset": 0,
+        "dst_from": null,
+        "week_number": 44,
+        "dst_until": null,
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "day_of_year": 306
+      },
+      "ym": {
+        "price": 33360,
+        "change": 9,
+        "open": 33358,
+        "percent": 0.03
+      },
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "change": 341,
+        "price": 16391
+      }
+    }
+  },
+  "qYuM4CDOp4NHKIjhCIR1": {
+    "stockData": {
+      "ym": {
+        "price": 33346,
+        "open": 33358,
+        "change": -5,
+        "percent": -0.01
+      },
+      "time": {
+        "week_number": 44,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "dst_from": null,
+        "dst": false,
+        "datetime": "2023-11-02T14:46:03.445397+08:00",
+        "utc_datetime": "2023-11-02T06:46:03.445397+00:00",
+        "day_of_week": 4,
+        "unixtime": 1698907563,
+        "dst_offset": 0,
+        "dst_until": null,
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00"
+      },
+      "tx": {
+        "change": 340,
+        "percent": 2.12,
+        "open": 16050,
+        "price": 16390
+      },
+      "tx_ym_gap": -2.13
+    }
+  },
+  "qpcmYex1SoHZLIGM434Z": {
+    "stockData": {
+      "time": {
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:13:03.250793+08:00",
+        "unixtime": 1698905583,
+        "day_of_year": 306,
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "dst": false,
+        "raw_offset": 28800,
+        "dst_until": null,
+        "dst_offset": 0,
+        "utc_datetime": "2023-11-02T06:13:03.250793+00:00"
+      },
+      "ym": {
+        "open": 33358,
+        "change": 11,
+        "price": 33362,
+        "percent": 0.03
+      },
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.0900000000000003
+    }
+  },
+  "qwSunZu7rPcRnn1e8GFc": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "price": 16379,
+        "change": 329,
+        "percent": 2.05
+      },
+      "time": {
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "dst_until": null,
+        "unixtime": 1698901871,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T05:11:11.530262+00:00",
+        "dst_offset": 0,
+        "dst_from": null,
+        "dst": false,
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T13:11:11.530262+08:00"
+      },
+      "ym": {
+        "price": 33360,
+        "change": 9,
+        "percent": 0.03,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "rRRhA0Hs26olZUdUruNz": {
+    "stockData": {
+      "ym": {
+        "price": 33350,
+        "change": -1,
+        "open": 33358,
+        "percent": 0
+      },
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "price": 16390,
+        "percent": 2.12
+      },
+      "tx_ym_gap": -2.12,
+      "time": {
+        "datetime": "2023-11-02T14:26:02.929432+08:00",
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:26:02.929432+00:00",
+        "dst_until": null,
+        "dst": false,
+        "dst_from": null,
+        "unixtime": 1698906362,
+        "abbreviation": "CST",
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0
+      }
+    }
+  },
+  "sANjHr47GiVFqM97C4Zn": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "price": 33366,
+        "change": 15,
+        "percent": 0.04
+      },
+      "tx": {
+        "percent": 2.06,
+        "open": 16050,
+        "price": 16380,
+        "change": 330
+      },
+      "time": {
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T12:23:03.147084+08:00",
+        "day_of_week": 4,
+        "dst_from": null,
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "dst": false,
+        "utc_datetime": "2023-11-02T04:23:03.147084+00:00",
+        "week_number": 44,
+        "day_of_year": 306,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "unixtime": 1698898983,
+        "utc_offset": "+08:00"
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "sAQR8N8Ag8kZi6kLKRBE": {
+    "stockData": {
+      "time": {
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T04:20:03.600442+00:00",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "dst_offset": 0,
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T12:20:03.600442+08:00",
+        "week_number": 44,
+        "dst_until": null,
+        "dst": false,
+        "unixtime": 1698898803
+      },
+      "tx": {
+        "change": 330,
+        "open": 16050,
+        "price": 16380,
+        "percent": 2.06
+      },
+      "ym": {
+        "open": 33358,
+        "percent": 0.04,
+        "price": 33365,
+        "change": 14
+      },
+      "tx_ym_gap": -2.02
+    }
+  },
+  "sc4T2G0qothoIpfUOlFM": {
+    "stockData": {
+      "tx": {
+        "percent": 2.12,
+        "open": 16050,
+        "change": 340,
+        "price": 16390
+      },
+      "time": {
+        "dst_offset": 0,
+        "week_number": 44,
+        "day_of_week": 4,
+        "datetime": "2023-11-02T14:02:04.157513+08:00",
+        "utc_offset": "+08:00",
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T06:02:04.157513+00:00",
+        "raw_offset": 28800,
+        "dst": false,
+        "unixtime": 1698904924,
+        "dst_from": null,
+        "dst_until": null,
+        "timezone": "Asia/Taipei"
+      },
+      "tx_ym_gap": -2.08,
+      "ym": {
+        "open": 33358,
+        "price": 33363,
+        "change": 12,
+        "percent": 0.04
+      }
+    }
+  },
+  "skBUrVsBrnUkYDzKtHOm": {
+    "stockData": {
+      "time": {
+        "day_of_year": 306,
+        "unixtime": 1698903242,
+        "dst_until": null,
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "week_number": 44,
+        "dst_from": null,
+        "dst": false,
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800,
+        "datetime": "2023-11-02T13:34:02.592587+08:00",
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T05:34:02.592587+00:00",
+        "utc_offset": "+08:00"
+      },
+      "tx_ym_gap": -2.1300000000000003,
+      "tx": {
+        "percent": 2.14,
+        "open": 16050,
+        "price": 16394,
+        "change": 344
+      },
+      "ym": {
+        "price": 33355,
+        "change": 4,
+        "percent": 0.01,
+        "open": 33358
+      }
+    }
+  },
+  "svm8UcKhQeTOe83CwctH": {
+    "stockData": {
+      "tx_ym_gap": -2.0500000000000003,
+      "time": {
+        "utc_offset": "+08:00",
+        "dst": false,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T03:55:03.495839+00:00",
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "day_of_week": 4,
+        "unixtime": 1698897303,
+        "day_of_year": 306,
+        "week_number": 44,
+        "datetime": "2023-11-02T11:55:03.495839+08:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "dst_from": null
+      },
+      "ym": {
+        "change": 18,
+        "percent": 0.05,
+        "open": 33358,
+        "price": 33369
+      },
+      "tx": {
+        "price": 16387,
+        "change": 337,
+        "open": 16050,
+        "percent": 2.1
+      }
+    }
+  },
+  "u0fYi9XD04PgSyn4LeS6": {
+    "stockData": {
+      "ym": {
+        "change": 16,
+        "price": 33367,
+        "percent": 0.05,
+        "open": 33358
+      },
+      "tx": {
+        "open": 16050,
+        "price": 16381,
+        "percent": 2.06,
+        "change": 331
+      },
+      "tx_ym_gap": -2.0100000000000002,
+      "time": {
+        "week_number": 44,
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "unixtime": 1698902702,
+        "dst_offset": 0,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T05:25:02.441165+00:00",
+        "datetime": "2023-11-02T13:25:02.441165+08:00",
+        "dst_from": null,
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "day_of_year": 306,
+        "raw_offset": 28800
+      }
+    }
+  },
+  "u7LxhKw71O4HWkeNYje8": {
+    "stockData": {
+      "tx": {
+        "percent": 2.07,
+        "open": 16050,
+        "price": 16383,
+        "change": 333
+      },
+      "time": {
+        "day_of_week": 4,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T12:40:04.310593+08:00",
+        "week_number": 44,
+        "utc_datetime": "2023-11-02T04:40:04.310593+00:00",
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "unixtime": 1698900004,
+        "dst": false,
+        "raw_offset": 28800
+      },
+      "tx_ym_gap": -2.03,
+      "ym": {
+        "percent": 0.04,
+        "change": 15,
+        "open": 33358,
+        "price": 33366
+      }
+    }
+  },
+  "uSlS1FjY2az9RaR5vYXG": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390
+      },
+      "time": {
+        "week_number": 44,
+        "dst_offset": 0,
+        "datetime": "2023-11-02T14:32:03.854285+08:00",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "dst_until": null,
+        "day_of_year": 306,
+        "dst": false,
+        "unixtime": 1698906723,
+        "abbreviation": "CST",
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T06:32:03.854285+00:00",
+        "day_of_week": 4
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33352,
+        "percent": 0,
+        "change": 1
+      }
+    }
+  },
+  "ucNHZNjZHZu5cT96VCAJ": {
+    "stockData": {
+      "tx": {
+        "open": 16050,
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390
+      },
+      "tx_ym_gap": -2.1100000000000003,
+      "ym": {
+        "percent": 0.01,
+        "price": 33354,
+        "open": 33358,
+        "change": 3
+      },
+      "time": {
+        "datetime": "2023-11-02T14:14:02.724924+08:00",
+        "day_of_week": 4,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "unixtime": 1698905642,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:14:02.724924+00:00",
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "dst_from": null,
+        "dst_offset": 0,
+        "dst_until": null,
+        "raw_offset": 28800
+      }
+    }
+  },
+  "uwsXnoJfrFDZSyMs5cmn": {
+    "stockData": {
+      "time": {
+        "unixtime": 1698905882,
+        "utc_datetime": "2023-11-02T06:18:02.580395+00:00",
+        "timezone": "Asia/Taipei",
+        "week_number": 44,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "datetime": "2023-11-02T14:18:02.580395+08:00",
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "dst_until": null,
+        "day_of_week": 4,
+        "dst": false,
+        "day_of_year": 306,
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.13,
+      "ym": {
+        "open": 33358,
+        "change": -4,
+        "percent": -0.01,
+        "price": 33347
+      },
+      "tx": {
+        "change": 340,
+        "open": 16050,
+        "percent": 2.12,
+        "price": 16390
+      }
+    }
+  },
+  "vPGRlbDUADQBG6xtTlUz": {
+    "stockData": {
+      "tx": {
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12,
+        "change": 340
+      },
+      "tx_ym_gap": -2.1,
+      "time": {
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "abbreviation": "CST",
+        "utc_datetime": "2023-11-02T06:10:03.412674+00:00",
+        "dst_offset": 0,
+        "utc_offset": "+08:00",
+        "dst_until": null,
+        "dst": false,
+        "datetime": "2023-11-02T14:10:03.412674+08:00",
+        "dst_from": null,
+        "raw_offset": 28800,
+        "week_number": 44,
+        "unixtime": 1698905403,
+        "client_ip": "35.185.153.172"
+      },
+      "ym": {
+        "open": 33358,
+        "percent": 0.02,
+        "price": 33358,
+        "change": 7
+      }
+    }
+  },
+  "vpxA3m8bxnc11wPhYvKa": {
+    "stockData": {
+      "tx_ym_gap": -2.0300000000000002,
+      "ym": {
+        "price": 33368,
+        "percent": 0.05,
+        "open": 33358,
+        "change": 17
+      },
+      "tx": {
+        "price": 16384,
+        "percent": 2.08,
+        "change": 334,
+        "open": 16050
+      },
+      "time": {
+        "dst_offset": 0,
+        "dst_until": null,
+        "datetime": "2023-11-02T12:37:04.016552+08:00",
+        "dst": false,
+        "dst_from": null,
+        "unixtime": 1698899824,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "abbreviation": "CST",
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T04:37:04.016552+00:00",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4
+      }
+    }
+  },
+  "w0143LRBleAn7HoLiRvY": {
+    "stockData": {
+      "time": {
+        "datetime": "2023-11-02T13:35:02.626615+08:00",
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "dst": false,
+        "dst_offset": 0,
+        "utc_datetime": "2023-11-02T05:35:02.626615+00:00",
+        "day_of_week": 4,
+        "day_of_year": 306,
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "unixtime": 1698903302,
+        "raw_offset": 28800,
+        "dst_from": null,
+        "dst_until": null,
+        "timezone": "Asia/Taipei"
+      },
+      "tx": {
+        "percent": 2.16,
+        "change": 346,
+        "open": 16050,
+        "price": 16396
+      },
+      "tx_ym_gap": -2.1500000000000004,
+      "ym": {
+        "percent": 0.01,
+        "change": 4,
+        "price": 33355,
+        "open": 33358
+      }
+    }
+  },
+  "wDPHBgdeLpM8KQO9qBHu": {
+    "stockData": {
+      "tx": {
+        "change": 333,
+        "price": 16383,
+        "percent": 2.07,
+        "open": 16050
+      },
+      "ym": {
+        "open": 33358,
+        "price": 33364,
+        "change": 13,
+        "percent": 0.04
+      },
+      "tx_ym_gap": -2.03,
+      "time": {
+        "utc_offset": "+08:00",
+        "unixtime": 1698902463,
+        "datetime": "2023-11-02T13:21:03.430786+08:00",
+        "timezone": "Asia/Taipei",
+        "raw_offset": 28800,
+        "dst_from": null,
+        "day_of_year": 306,
+        "utc_datetime": "2023-11-02T05:21:03.430786+00:00",
+        "day_of_week": 4,
+        "week_number": 44,
+        "dst_until": null,
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "dst": false,
+        "client_ip": "35.185.153.172"
+      }
+    }
+  },
+  "wOfPORFVk8ZG9BV8NtKV": {
+    "stockData": {
+      "ym": {
+        "percent": 0.03,
+        "change": 10,
+        "open": 33358,
+        "price": 33361
+      },
+      "tx": {
+        "change": 345,
+        "open": 16050,
+        "price": 16395,
+        "percent": 2.15
+      },
+      "tx_ym_gap": -2.12,
+      "time": {
+        "client_ip": "35.185.153.172",
+        "week_number": 44,
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "dst_until": null,
+        "utc_datetime": "2023-11-02T05:33:02.586851+00:00",
+        "unixtime": 1698903182,
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "dst": false,
+        "datetime": "2023-11-02T13:33:02.586851+08:00",
+        "raw_offset": 28800,
+        "abbreviation": "CST"
+      }
+    }
+  },
+  "wlEI1AWDWUY5L1oBaJPN": {
+    "stockData": {
+      "ym": {
+        "price": 33360,
+        "open": 33358,
+        "percent": 0.03,
+        "change": 9
+      },
+      "tx": {
+        "change": 343,
+        "open": 16050,
+        "percent": 2.14,
+        "price": 16393
+      },
+      "time": {
+        "utc_offset": "+08:00",
+        "timezone": "Asia/Taipei",
+        "dst_until": null,
+        "raw_offset": 28800,
+        "client_ip": "35.185.153.172",
+        "day_of_year": 306,
+        "week_number": 44,
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T05:30:02.682388+00:00",
+        "abbreviation": "CST",
+        "dst_offset": 0,
+        "dst": false,
+        "unixtime": 1698903002,
+        "datetime": "2023-11-02T13:30:02.682388+08:00",
+        "day_of_week": 4
+      },
+      "tx_ym_gap": -2.1100000000000003
+    }
+  },
+  "wlaaoeCIwqSSHMNv8j3Q": {
+    "stockData": {
+      "tx_ym_gap": -2.02,
+      "time": {
+        "datetime": "2023-11-02T11:50:03.281611+08:00",
+        "day_of_week": 4,
+        "week_number": 44,
+        "dst": false,
+        "utc_offset": "+08:00",
+        "utc_datetime": "2023-11-02T03:50:03.281611+00:00",
+        "unixtime": 1698897003,
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "dst_offset": 0,
+        "abbreviation": "CST",
+        "dst_until": null,
+        "raw_offset": 28800,
+        "day_of_year": 306,
+        "timezone": "Asia/Taipei"
+      },
+      "tx": {
+        "change": 333,
+        "percent": 2.07,
+        "open": 16050,
+        "price": 16383
+      },
+      "ym": {
+        "price": 33368,
+        "percent": 0.05,
+        "change": 17,
+        "open": 33358
+      }
+    }
+  },
+  "wmZzaTw7kwqZSNXyZYY6": {
+    "stockData": {
+      "tx": {
+        "percent": 2.11,
+        "open": 16050,
+        "change": 339,
+        "price": 16389
+      },
+      "tx_ym_gap": -2.05,
+      "ym": {
+        "price": 33371,
+        "change": 20,
+        "percent": 0.06,
+        "open": 33358
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "day_of_year": 306,
+        "datetime": "2023-11-02T11:58:02.395186+08:00",
+        "unixtime": 1698897482,
+        "dst_offset": 0,
+        "raw_offset": 28800,
+        "utc_datetime": "2023-11-02T03:58:02.395186+00:00",
+        "utc_offset": "+08:00",
+        "week_number": 44,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "day_of_week": 4,
+        "timezone": "Asia/Taipei",
+        "dst_from": null
+      }
+    }
+  },
+  "x6SjeGAAYXH4iKpKcN0m": {
+    "stockData": {
+      "tx_ym_gap": -2.12,
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390
+      },
+      "ym": {
+        "change": 0,
+        "open": 33358,
+        "price": 33351,
+        "percent": 0
+      },
+      "time": {
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst_offset": 0,
+        "dst_from": null,
+        "day_of_year": 306,
+        "unixtime": 1698906422,
+        "dst": false,
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:27:02.884967+08:00",
+        "day_of_week": 4,
+        "utc_datetime": "2023-11-02T06:27:02.884967+00:00",
+        "dst_until": null,
+        "client_ip": "35.185.153.172",
+        "raw_offset": 28800
+      }
+    }
+  },
+  "xSUkB4p2f3HxbljMxEuM": {
+    "stockData": {
+      "time": {
+        "dst": false,
+        "day_of_year": 306,
+        "client_ip": "35.185.153.172",
+        "dst_from": null,
+        "dst_until": null,
+        "datetime": "2023-11-02T13:02:04.374937+08:00",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "week_number": 44,
+        "dst_offset": 0,
+        "unixtime": 1698901324,
+        "utc_datetime": "2023-11-02T05:02:04.374937+00:00",
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST"
+      },
+      "tx_ym_gap": -2.01,
+      "ym": {
+        "change": 13,
+        "open": 33358,
+        "percent": 0.04,
+        "price": 33364
+      },
+      "tx": {
+        "change": 329,
+        "price": 16379,
+        "percent": 2.05,
+        "open": 16050
+      }
+    }
+  },
+  "xtwwbCA8s3TVtOf7NavQ": {
+    "stockData": {
+      "ym": {
+        "price": 33348,
+        "change": -3,
+        "percent": -0.01,
+        "open": 33358
+      },
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "open": 16050,
+        "change": 340,
+        "percent": 2.12,
+        "price": 16390
+      },
+      "time": {
+        "dst": false,
+        "week_number": 44,
+        "dst_offset": 0,
+        "timezone": "Asia/Taipei",
+        "day_of_year": 306,
+        "day_of_week": 4,
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "dst_from": null,
+        "utc_datetime": "2023-11-02T06:44:05.041721+00:00",
+        "client_ip": "35.185.153.172",
+        "abbreviation": "CST",
+        "datetime": "2023-11-02T14:44:05.041721+08:00",
+        "dst_until": null,
+        "unixtime": 1698907445
+      }
+    }
+  },
+  "yDI7I4rxFEYpXVShG2Yz": {
+    "stockData": {
+      "ym": {
+        "open": 33358,
+        "percent": -0.01,
+        "price": 33346,
+        "change": -5
+      },
+      "tx_ym_gap": -2.13,
+      "tx": {
+        "change": 340,
+        "price": 16390,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "time": {
+        "timezone": "Asia/Taipei",
+        "abbreviation": "CST",
+        "dst_from": null,
+        "utc_offset": "+08:00",
+        "datetime": "2023-11-02T14:47:03.514779+08:00",
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "dst": false,
+        "dst_until": null,
+        "week_number": 44,
+        "raw_offset": 28800,
+        "unixtime": 1698907623,
+        "day_of_week": 4,
+        "client_ip": "35.185.153.172",
+        "utc_datetime": "2023-11-02T06:47:03.514779+00:00"
+      }
+    }
+  },
+  "yJaI9mv3js1DVmpeqB4B": {
+    "stockData": {
+      "ym": {
+        "price": 33365,
+        "open": 33358,
+        "percent": 0.04,
+        "change": 14
+      },
+      "time": {
+        "dst_from": null,
+        "datetime": "2023-11-02T12:19:03.897440+08:00",
+        "dst_offset": 0,
+        "utc_datetime": "2023-11-02T04:19:03.897440+00:00",
+        "unixtime": 1698898743,
+        "dst": false,
+        "dst_until": null,
+        "abbreviation": "CST",
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "client_ip": "35.185.153.172",
+        "day_of_week": 4,
+        "utc_offset": "+08:00",
+        "raw_offset": 28800,
+        "day_of_year": 306
+      },
+      "tx_ym_gap": -2.01,
+      "tx": {
+        "price": 16379,
+        "change": 329,
+        "open": 16050,
+        "percent": 2.05
+      }
+    }
+  },
+  "zeIArCz3VGlcaZ8TVBMq": {
+    "stockData": {
+      "time": {
+        "dst_offset": 0,
+        "day_of_year": 306,
+        "unixtime": 1698906663,
+        "abbreviation": "CST",
+        "client_ip": "35.185.153.172",
+        "dst": false,
+        "week_number": 44,
+        "timezone": "Asia/Taipei",
+        "dst_from": null,
+        "dst_until": null,
+        "datetime": "2023-11-02T14:31:03.101586+08:00",
+        "utc_datetime": "2023-11-02T06:31:03.101586+00:00",
+        "raw_offset": 28800,
+        "utc_offset": "+08:00",
+        "day_of_week": 4
+      },
+      "ym": {
+        "change": 0,
+        "open": 33358,
+        "price": 33351,
+        "percent": 0
+      },
+      "tx": {
+        "percent": 2.12,
+        "change": 340,
+        "price": 16390,
+        "open": 16050
+      },
+      "tx_ym_gap": -2.12
+    }
+  },
+  "zzDjJsEfzdKJViLhAJMo": {
+    "stockData": {
+      "tx": {
+        "price": 16390,
+        "change": 340,
+        "open": 16050,
+        "percent": 2.12
+      },
+      "time": {
+        "client_ip": "35.185.153.172",
+        "dst_until": null,
+        "unixtime": 1698907863,
+        "day_of_year": 306,
+        "utc_offset": "+08:00",
+        "day_of_week": 4,
+        "dst_from": null,
+        "datetime": "2023-11-02T14:51:03.316089+08:00",
+        "week_number": 44,
+        "raw_offset": 28800,
+        "timezone": "Asia/Taipei",
+        "utc_datetime": "2023-11-02T06:51:03.316089+00:00",
+        "dst": false,
+        "abbreviation": "CST",
+        "dst_offset": 0
+      },
+      "tx_ym_gap": -2.12,
+      "ym": {
+        "percent": 0,
+        "price": 33350,
+        "change": -1,
+        "open": 33358
+      }
+    }
+  }
+}
