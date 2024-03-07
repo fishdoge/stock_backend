@@ -72,4 +72,26 @@ async function readData(path) {
   fsp.writeFile('backup_stockData.json', json, 'utf8');
   return users;
 };
-getDataObj('stockData')
+// getDataObj('stockData')
+
+const addData = async (collection, uid, data) => {
+  // 指定 uid 作為 doc 的 id
+  try {
+    await setDoc(doc(database, collection, uid), data, { merge: true });
+    console.log(collection + " " + uid + " addData: ", data)
+  }
+  catch (e) {
+    console.log(e)
+  }
+};
+
+const yJSON = require("./get_tx_history/history/yield_tx_dow_22_23.json")
+async function uploadYieldJSON(){
+  // yJSON.forEach()
+  for (idx in yJSON){
+    let data =yJSON[idx]
+    console.log(data)
+    addData("22_23_json", data.time, data)
+  }
+}
+uploadYieldJSON()
