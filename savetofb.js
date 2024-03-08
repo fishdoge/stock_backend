@@ -1,7 +1,6 @@
 // Import the functions you need from the SDKs you need
 const { initializeApp } = require("firebase/app")
 // const { getDatabase, set, child, get, push, update, ref } = require('firebase/database')
-const { getFirestore } = require("firebase/firestore")
 const {
   setDoc,
   doc,
@@ -12,7 +11,8 @@ const {
   query,
   where,
   updateDoc,
-  deleteDoc
+  deleteDoc,
+  getFirestore
 } = require("firebase/firestore")
 var fsp = require('fs/promises');
 // TODO: Add SDKs for Firebase products that you want to use
@@ -34,26 +34,33 @@ const database = getFirestore(app);
 
 
 async function readData(path) {
-  const dbRef = ref(getDatabase(app))
-  const snapshot = await get(child(dbRef, path))
-  try {
-    if (snapshot.exists()) {
-      const val = snapshot.val()
-      console.log(val)
-      return val
-    } else {
-      // console.log('No data available')
-      return undefined
-    }
-  } catch {
-    (error) => {
-      console.log('viewUserData err')
-      console.error(error)
-    }
-  }
+  const querySnapshot = await getDocs(collection(database, path));
+  querySnapshot.forEach((doc) => {
+    console.log(doc.id, " => ", doc.data());
+  })
+
+  // const dbRef = ref(getFirestore(app))
+  // const snapshot = await get(child(dbRef, path))
+  // try {
+  //   if (snapshot.exists()) {
+  //     const val = snapshot.val()
+  //     console.log(val)
+  //     return val
+  //   } else {
+  //     // console.log('No data available')
+  //     return undefined
+  //   }
+  // } catch {
+  //   (error) => {
+  //     console.log('viewUserData err')
+  //     console.error(error)
+  //   }
+  // }
 }
 
+// !
 // const r = readData('stockData')
+// console.log(r, "r")
 
 const getDataObj = async (qCollection) => {
   let users = {}
@@ -68,11 +75,12 @@ const getDataObj = async (qCollection) => {
     // i.uid = doc.id
   });
   // console.log(querySnapshot.docs, "querySnapshot", users)
-  var json = JSON.stringify(users);
-  fsp.writeFile('backup_stockData.json', json, 'utf8');
+  // var json = JSON.stringify(users);
+  // fsp.writeFile('backup_stockData.json', json, 'utf8');
   return users;
 };
-// getDataObj('stockData')
+// !
+// const stockData = getDataObj('stockData')
 
 const addData = async (collection, uid, data) => {
   // 指定 uid 作為 doc 的 id
@@ -86,7 +94,7 @@ const addData = async (collection, uid, data) => {
 };
 
 // const yJSON = require("./get_tx_history/history/yield_tx_dow_22_23.json")
-const yJSON = require("./get_tx_history/history/yield_m_22_23.json")
+// const yJSON = require("./get_tx_history/history/yield_m_22_23.json")
 async function uploadYieldJSON() {
   for (idx in yJSON['month_profit']) {
     let data = yJSON['month_profit'][idx]
@@ -106,7 +114,7 @@ async function uploadYieldJSON() {
     addData("yield_m_22_23", "month_yield", { [data.time]: data })
   }
 }
-uploadYieldJSON()
+// uploadYieldJSON()
 // async function a() {
 //   await setDoc(doc(database, "cities", "LA",),
 //     {
@@ -118,3 +126,79 @@ uploadYieldJSON()
 //     })
 // }
 // a()
+
+function formatStockData(stockData) {
+  const tx = stockData.tx;
+  const ym = stockData.ym;
+  const txYmGap = stockData.tx_ym_gap;
+
+  const high = Math.max(tx.open, tx.price);
+  const low = Math.min(tx.open, tx.price);
+  const buyPrice = tx.open;
+  const sellPrice = tx.price;
+  const profit = (sellPrice - buyPrice) * 200;
+  const action = txYmGap >= 0 ? 'buy' : 'sell';
+
+  let stop30 = null;
+  let stop50 = null;
+  if (profit > 6000) {
+    stop30 = 6000;
+  }
+  if (profit < -6000) {
+    stop30 = -6000;
+  }
+  if (profit > 10000) {
+    stop50 = 10000;
+  }
+  if (profit < -10000) {
+    stop50 = -10000;
+  }
+
+  const formattedDate = stockData.time.datetime.split('T')[0];
+
+  return {
+    '30_stop': stop30,
+    '50_stop': stop50,
+    action,
+    buy_price: buyPrice,
+    dow_percent: ym.percent,
+    high,
+    is_summer: false,
+    low,
+    percentage_gap: txYmGap,
+    profit,
+    sell_price: sellPrice,
+    time: formattedDate,
+    tx_percent: tx.percent,
+  }
+}
+
+async function rename() {
+  const json2223 = await getDataObj('22_23_json')
+  for (let i in json2223) {
+    console.log(i)
+    addData("transactions", json2223[i].time, json2223[i])
+
+  }
+}
+
+async function add_lost() {
+  const stockData = await getDataObj('stockData')
+  const transactions = await getDataObj('transactions')
+
+  for (let key in stockData) {
+    if (stockData[key].time) {
+      if (stockData[key].time) {
+        // console.log(key, stockData[key])
+        if (!Object.keys(transactions).includes(key)) {
+          const newForm = formatStockData(stockData[key])
+          console.log(key, stockData[key], newForm)
+          addData("transactions", key, newForm)
+        }
+      }
+    }
+  }
+}
+// !
+// add_lost()
+
