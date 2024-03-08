@@ -174,13 +174,20 @@ function formatStockData(stockData) {
 }
 
 async function rename() {
-  const json2223 = await getDataObj('22_23_json')
-  for (let i in json2223) {
-    console.log(i)
-    addData("transactions", json2223[i].time, json2223[i])
-
+  const json2223 = await getDataObj('yield_m_22_23')
+  const reform = []
+  for (let i in json2223.month_profit) {
+    // console.log(i, json2223)
+    reform.push({ time: i, profit: json2223.month_profit[i].profit, yield: json2223.month_yield[i].yield })
+  }
+  console.log(reform)
+  for (let i in reform) {
+    console.log(i, "i")
+    addData("month_count", reform[i].time, reform[i])
   }
 }
+// !
+// rename()
 
 async function add_lost() {
   const stockData = await getDataObj('stockData')
@@ -202,3 +209,61 @@ async function add_lost() {
 // !
 // add_lost()
 
+
+
+async function recount_PandY() {
+  const month_count = await getDataObj('month_count')
+  const transactions = await getDataObj('transactions')
+  let py = {}
+
+  /// count profit
+  for (let date in transactions) {
+    let year_mon = date.slice(0, 7)
+    if (py[year_mon]) {
+      py[year_mon].profit += transactions[date].profit
+    } else {
+      py[year_mon] = { profit: transactions[date].profit }
+    }
+  }
+  /// count yield
+  for (let year_mon in py) {
+    if (month_count[year_mon]) { /// check if is in firebase
+      if (month_count[year_mon].profit !== py[year_mon].profit) { /// do update
+        let year = +(year_mon.slice(0, 4))
+        let mon = +(year_mon.slice(5, 7))
+        if (mon !== 1) {
+          mon--
+        } else {
+          mon = 12
+          year--
+        }
+        let last_record = year + "-" + mon.toFixed().padStart(2, '0')
+        let updated = month_count[year_mon]
+        updated.yield = month_count[last_record]
+        for (let i = 1; i <= 5; i++) {
+          updated.yield[i] += (py[year_mon].profit * i)
+        }
+        addData("month_count", year_mon, updated)
+      }
+    } else { /// count yield, add to firebase
+      let year = +(year_mon.slice(0, 4))
+      let mon = +(year_mon.slice(5, 7))
+      if (mon !== 1) {
+        mon--
+      } else {
+        mon = 12
+        year--
+      }
+      let last_record = year + "-" + mon.toFixed().padStart(2, '0')
+      py[year_mon].yield = py[last_record] ? py[last_record].yield : month_count[last_record].yield
+      for (let i = 1; i <= 5; i++) {
+        py[year_mon].yield[i] += (py[year_mon].profit * i)
+      }
+      console.log(py[year_mon].yield, py)
+      py[year_mon].time = year_mon
+      addData("month_count", year_mon, py[year_mon])
+    }
+  }
+}
+// !
+recount_PandY()
