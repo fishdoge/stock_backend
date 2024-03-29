@@ -69,10 +69,10 @@ const getDataObj = async (qCollection) => {
   });
   // console.log(querySnapshot.docs, "querySnapshot", users)
   var json = JSON.stringify(users);
-  fsp.writeFile('backup_stockData.json', json, 'utf8');
+  fsp.writeFile('backup_users.json', json, 'utf8');
   return users;
 };
-// getDataObj('stockData')
+// getDataObj('users')
 
 const addData = async (collection, uid, data) => {
   // 指定 uid 作為 doc 的 id
@@ -106,7 +106,7 @@ async function uploadYieldJSON() {
     addData("yield_m_22_23", "month_yield", { [data.time]: data })
   }
 }
-uploadYieldJSON()
+// uploadYieldJSON()
 // async function a() {
 //   await setDoc(doc(database, "cities", "LA",),
 //     {
