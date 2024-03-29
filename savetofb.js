@@ -1,7 +1,6 @@
 // Import the functions you need from the SDKs you need
 const { initializeApp } = require("firebase/app")
 // const { getDatabase, set, child, get, push, update, ref } = require('firebase/database')
-const { getFirestore } = require("firebase/firestore")
 const {
   setDoc,
   doc,
@@ -12,7 +11,8 @@ const {
   query,
   where,
   updateDoc,
-  deleteDoc
+  deleteDoc,
+  getFirestore
 } = require("firebase/firestore")
 var fsp = require('fs/promises');
 // TODO: Add SDKs for Firebase products that you want to use
@@ -34,26 +34,33 @@ const database = getFirestore(app);
 
 
 async function readData(path) {
-  const dbRef = ref(getDatabase(app))
-  const snapshot = await get(child(dbRef, path))
-  try {
-    if (snapshot.exists()) {
-      const val = snapshot.val()
-      console.log(val)
-      return val
-    } else {
-      // console.log('No data available')
-      return undefined
-    }
-  } catch {
-    (error) => {
-      console.log('viewUserData err')
-      console.error(error)
-    }
-  }
+  const querySnapshot = await getDocs(collection(database, path));
+  querySnapshot.forEach((doc) => {
+    console.log(doc.id, " => ", doc.data());
+  })
+
+  // const dbRef = ref(getFirestore(app))
+  // const snapshot = await get(child(dbRef, path))
+  // try {
+  //   if (snapshot.exists()) {
+  //     const val = snapshot.val()
+  //     console.log(val)
+  //     return val
+  //   } else {
+  //     // console.log('No data available')
+  //     return undefined
+  //   }
+  // } catch {
+  //   (error) => {
+  //     console.log('viewUserData err')
+  //     console.error(error)
+  //   }
+  // }
 }
 
+// !
 // const r = readData('stockData')
+// console.log(r, "r")
 
 const getDataObj = async (qCollection) => {
   let users = {}
@@ -86,7 +93,7 @@ const addData = async (collection, uid, data) => {
 };
 
 // const yJSON = require("./get_tx_history/history/yield_tx_dow_22_23.json")
-const yJSON = require("./get_tx_history/history/yield_m_22_23.json")
+// const yJSON = require("./get_tx_history/history/yield_m_22_23.json")
 async function uploadYieldJSON() {
   for (idx in yJSON['month_profit']) {
     let data = yJSON['month_profit'][idx]
@@ -118,3 +125,144 @@ async function uploadYieldJSON() {
 //     })
 // }
 // a()
+
+function formatStockData(stockData) {
+  const tx = stockData.tx;
+  const ym = stockData.ym;
+  const txYmGap = stockData.tx_ym_gap;
+
+  const high = Math.max(tx.open, tx.price);
+  const low = Math.min(tx.open, tx.price);
+  const buyPrice = tx.open;
+  const sellPrice = tx.price;
+  const profit = (sellPrice - buyPrice) * 200;
+  const action = txYmGap >= 0 ? 'buy' : 'sell';
+
+  let stop30 = null;
+  let stop50 = null;
+  if (profit > 6000) {
+    stop30 = 6000;
+  }
+  if (profit < -6000) {
+    stop30 = -6000;
+  }
+  if (profit > 10000) {
+    stop50 = 10000;
+  }
+  if (profit < -10000) {
+    stop50 = -10000;
+  }
+
+  const formattedDate = stockData.time.datetime.split('T')[0];
+
+  return {
+    '30_stop': stop30,
+    '50_stop': stop50,
+    action,
+    buy_price: buyPrice,
+    dow_percent: ym.percent,
+    high,
+    is_summer: false,
+    low,
+    percentage_gap: txYmGap,
+    profit,
+    sell_price: sellPrice,
+    time: formattedDate,
+    tx_percent: tx.percent,
+  }
+}
+
+async function rename() {
+  const json2223 = await getDataObj('yield_m_22_23')
+  const reform = []
+  for (let i in json2223.month_profit) {
+    // console.log(i, json2223)
+    reform.push({ time: i, profit: json2223.month_profit[i].profit, yield: json2223.month_yield[i].yield })
+  }
+  console.log(reform)
+  for (let i in reform) {
+    console.log(i, "i")
+    addData("month_count", reform[i].time, reform[i])
+  }
+}
+// !
+// rename()
+
+async function add_lost() {
+  const stockData = await getDataObj('stockData')
+  const transactions = await getDataObj('transactions')
+
+  for (let key in stockData) {
+    if (stockData[key].time) {
+      if (stockData[key].time) {
+        // console.log(key, stockData[key])
+        if (!Object.keys(transactions).includes(key)) {
+          const newForm = formatStockData(stockData[key])
+          console.log(key, stockData[key], newForm)
+          addData("transactions", key, newForm)
+        }
+      }
+    }
+  }
+}
+// !
+// add_lost()
+
+
+
+async function recount_PandY() {
+  const month_count = await getDataObj('month_count')
+  const transactions = await getDataObj('transactions')
+  let py = {}
+
+  /// count profit
+  for (let date in transactions) {
+    let year_mon = date.slice(0, 7)
+    if (py[year_mon]) {
+      py[year_mon].profit += transactions[date].profit
+    } else {
+      py[year_mon] = { profit: transactions[date].profit }
+    }
+  }
+  /// count yield
+  for (let year_mon in py) {
+    if (month_count[year_mon]) { /// check if is in firebase
+      if (month_count[year_mon].profit !== py[year_mon].profit) { /// do update
+        let year = +(year_mon.slice(0, 4))
+        let mon = +(year_mon.slice(5, 7))
+        if (mon !== 1) {
+          mon--
+        } else {
+          mon = 12
+          year--
+        }
+        let last_record = year + "-" + mon.toFixed().padStart(2, '0')
+        let updated = month_count[year_mon]
+        updated.yield = month_count[last_record]
+        for (let i = 1; i <= 5; i++) {
+          updated.yield[i] += (py[year_mon].profit * i)
+        }
+        addData("month_count", year_mon, updated)
+      }
+    } else { /// count yield, add to firebase
+      let year = +(year_mon.slice(0, 4))
+      let mon = +(year_mon.slice(5, 7))
+      if (mon !== 1) {
+        mon--
+      } else {
+        mon = 12
+        year--
+      }
+      let last_record = year + "-" + mon.toFixed().padStart(2, '0')
+      py[year_mon].yield = py[last_record] ? py[last_record].yield : month_count[last_record].yield
+      for (let i = 1; i <= 5; i++) {
+        py[year_mon].yield[i] += (py[year_mon].profit * i)
+      }
+      console.log(py[year_mon].yield, py)
+      py[year_mon].time = year_mon
+      addData("month_count", year_mon, py[year_mon])
+    }
+  }
+}
+// !
+recount_PandY()
