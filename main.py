@@ -99,10 +99,10 @@ def getYm():
   # print(title_tag)
   tags = doc.find_all(["fin-streamer"], limit=7)
   # print(len(tags),tags)
-  price = float((tags[3].string).replace(",", ""))
-  change = float(tags[4].string)
-  percent = float(tags[5].string[1:-2])
-  open = float(((doc.find_all("td", {"data-test":"OPEN-value"},  limit=1))[0].string).replace(",", ""))
+  price = float((tags[2].string).replace(",", ""))
+  change = float(tags[3].string)
+  percent = float(tags[4].string[1:-2])
+  open = float(price+change)
   # print(tags)
   return {"open": open,"price": price, "change": change, "percent": percent}
 
