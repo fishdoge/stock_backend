@@ -17,6 +17,7 @@ const {
 var fsp = require('fs/promises');
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
+const axios = require('axios');
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -75,11 +76,44 @@ const getDataObj = async (qCollection) => {
     // i.uid = doc.id
   });
   // console.log(querySnapshot.docs, "querySnapshot", users)
-  var json = JSON.stringify(users);
-  fsp.writeFile('backup_users.json', json, 'utf8');
+  // console.log(users, users["123"])
+  // var json = JSON.stringify(users);
+  // fsp.writeFile('backup_users.json', json, 'utf8');
   return users;
 };
-// getDataObj('users')
+//!                             
+async function high_low() {
+  const response = await axios.get(
+    'https://hongwang-gcp.de.r.appspot.com/realtime',
+  )
+  const stockData = response.data;
+  const datetime = new Date(stockData.time.datetime)
+    .toISOString()
+    .split('T')[0];
+  // console.log(datetime,"datetime")
+  const hldoc = getDataObj('high_low')
+  if (hldoc[datetime]) { // update
+    let i = {}
+    if (stockData.tx.price > hldoc[datetime].high) {
+      i = { high: stockData.tx.price, low: hldoc[datetime].low }
+    } else if (stockData.tx.price < hldoc[datetime].low) {
+      i = { high: hldoc[datetime].high, low: stockData.tx.price }
+    }
+    addData('high_low', datetime, i)
+  } else { // add log
+    let i = {}
+    if (stockData.tx.open > stockData.tx.price) {
+      i = { high: stockData.tx.open, low: stockData.tx.price }
+    } else {
+      i = { high: stockData.tx.price, low: stockData.tx.open }
+    }
+    addData('high_low', datetime, i)
+  }
+}
+// high_low()//!
+
+
+//!                               
 
 const addData = async (collection, uid, data) => {
   // 指定 uid 作為 doc 的 id
@@ -131,8 +165,8 @@ function formatStockData(stockData) {
   const ym = stockData.ym;
   const txYmGap = stockData.tx_ym_gap;
 
-  const high = Math.max(tx.open, tx.price);
-  const low = Math.min(tx.open, tx.price);
+  const high = Math.max(tx.open, tx.price); // ?
+  const low = Math.min(tx.open, tx.price); // ?
   const buyPrice = tx.open;
   const sellPrice = tx.price;
   const profit = (sellPrice - buyPrice) * 200;
@@ -265,4 +299,33 @@ async function recount_PandY() {
   }
 }
 // !
-recount_PandY()
+// recount_PandY()
+
+async function add_datetime() {
+  const stockData = await getDataObj('stockData')
+  const transactions = await getDataObj('transactions')
+
+  for (let key in stockData) {
+    let data = {}
+    if (stockData[key].stockData) {
+      data = stockData[key].stockData
+    } else {
+      data = stockData[key]
+    }
+    if (data.time) {
+      let date_key = data.time.datetime.slice(0, 10)
+      console.log(date_key)
+      // console.log(transactions[date_key].time.length, date_key)
+      if (transactions[date_key]) {
+        if (transactions[date_key].time.length < 12) {
+          // console.log(key, stockData[key])
+          let new_trans = transactions[key]
+          new_trans.time = stockData[key].time.datetime
+          console.log(key, transactions[key], new_trans)
+          // addData("transactions", key, new_trans)
+        }
+      }
+    }
+  }
+}
+// add_datetime() // !
