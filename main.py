@@ -63,7 +63,7 @@ def getPrices():
   ym = getYm()
   response = r.get("http://worldtimeapi.org/api/timezone/Asia/Taipei")
   time = json.loads(response.text)
-  myRes={"tx": tx, "ym": ym, "tx_ym_gap": ym["percent"]-tx["percent"], "time": time}
+  myRes={"tx": tx, "ym": ym, "tx_ym_gap": round(ym["percent"]-tx["percent"], 2), "time": time}
   # print(type(myRes), myRes, time['datetime'])
   return myRes
 
